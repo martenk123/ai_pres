@@ -1,7 +1,9 @@
 [
   {
     "type": "INTRO",
-    "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/8f7e861ea8cce0c68fb48bb323aad771f0a28b75/Start.png",
+    "kleur": "#00ff88",
+    "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/main/Start.png",
+    "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/main/End.png",
     "titel": "AI POWER-UP",
     "subtitel": "LA PLUME MEDIA",
     "tekst": "Van Chatbot naar Slimme Collega."
@@ -9,7 +11,7 @@
   {
     "type": "CASE",
     "titel": "PROJECT GREENLAUNCH",
-    "tekst": "Nieuwe klant: <strong>GreenWheels Pro</strong>.<br>Deadline: <strong>Morgen</strong>.<br>Status: <strong>Chaos</strong>."
+    "tekst": "Nieuwe klant: <strong>GreenWheels Pro</strong>.<br>Deadline: <strong>Morgen</strong>.<br>Status: <strong>Totale Chaos</strong>."
   },
   
   {
@@ -29,12 +31,13 @@
     "sectie": "OPDRACHT 1",
     "titel": "Jouw Taak",
     "tekst": "We gebruiken AI als <strong>Executive Assistant</strong> om rust te creëren.",
-    "prompt": "Gedraag je als een ervaren Executive Assistant bij een mediabureau. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
+    "prompt": "Gedraag je als een ervaren Executive Assistant. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
   },
   {
     "sectie": "OPDRACHT 1",
     "titel": "Het Resultaat",
-    "tekst": "Je hebt nu overzicht en de klant is rustig. Tijdswinst: 15 minuten."
+    "tekst": "Je hebt nu overzicht en de klant is rustig. Tijdswinst: 15 minuten.",
+    "afbeelding": "https://image.pollinations.ai/prompt/futuristic%20holographic%20checklist%20interface%20cyberpunk%20style?width=1080&height=720&nologo=true"
   },
   {
     "type": "FUN",
@@ -51,7 +54,7 @@
     "sectie": "OPDRACHT 2",
     "type": "DOC",
     "titel": "Briefing Document",
-    "bestandsnaam": "Tone_of_Voice_GreenWheels.pdf",
+    "bestandsnaam": "Tone_of_Voice.pdf",
     "tekst": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><br><strong>DOEL:</strong> Persbericht lancering stemgestuurde scooters."
   },
   {
@@ -63,7 +66,8 @@
   {
     "sectie": "OPDRACHT 2",
     "titel": "Het Resultaat",
-    "tekst": "Een tekst die direct klinkt als het merk, zonder de standaard AI-saaiheid."
+    "tekst": "Een tekst die direct klinkt als het merk, zonder de standaard AI-saaiheid.",
+    "afbeelding": "https://image.pollinations.ai/prompt/cyberpunk%20newspaper%20headline%20press%20release%20neon%20lights?width=1080&height=720&nologo=true"
   },
   {
     "type": "FUN",
@@ -92,7 +96,7 @@
     "sectie": "OPDRACHT 4",
     "titel": "Jouw Taak",
     "tekst": "We gaan beeld maken in Gemini (via Nano Banana/Imagen). We hebben een technische beschrijving nodig.",
-    "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een AI-generator:<br><br>Scene: Oma op knalgele scooter schreeuwend in een bibliotheek.<br><br>Beschrijf in detail voor de generator:<br>- Belichting (cinematic, neon?)<br>- Camerahoek (low angle?)<br>- Stijl (Cyberpunk, Fotorealistisch)"
+    "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een AI-generator (zoals Nano Banana):<br><br>Scene: Oma op knalgele scooter schreeuwend in een bibliotheek.<br><br>Beschrijf in detail voor de generator:<br>- Belichting (cinematic, neon?)<br>- Camerahoek (low angle?)<br>- Stijl (Cyberpunk, Fotorealistisch)"
   },
   {
     "sectie": "OPDRACHT 4",
@@ -104,25 +108,24 @@
   {
     "type": "REVEAL",
     "titel": "OPDRACHT 5",
-    "subtitel": "DE KRITISCHE PANEL"
+    "subtitel": "HET KRITISCHE PANEL"
   },
   {
     "sectie": "OPDRACHT 5",
     "type": "CHAT",
     "titel": "Het Panel",
     "deelnemers": "Veiligheid, Gen-Z, Klant",
-    "tekst": "<strong>Veiligheidsmanager Rob:</strong> 'Dit is levensgevaarlijk. Een oma op een scooter binnen??'<br><br><strong>Gen-Z influencer Nova:</strong> 'OMG dit is wel viral material, maar misschien cringe?'<br><br><strong>Klant Peter:</strong> 'Wat kost dit??'"
+    "tekst": "<strong>Veiligheidsmanager Rob:</strong> 'Dit is volstrekt onverantwoord. Een scooter in een bibliotheek? Denk aan de brandverzekering!'<br><br><strong>Gen-Z influencer Nova:</strong> 'Eerlijk? Het is wel low-key iconic. Als die oma een wheelie doet, gaat dit 100% viral op TikTok. No cap.'<br><br><strong>Klant Peter:</strong> 'Leuk die viraliteit, Nova, maar wie gaat die boeken betalen als ze omvallen? Kan het ook met een kartonnen scooter?'"
   },
   {
     "sectie": "OPDRACHT 5",
     "titel": "Jouw Taak",
     "tekst": "We laten AI kritisch zijn door extreme persona's in te zetten.",
-    "prompt": "We evalueren het concept (Oma op scooter). Laat deze 3 persona's discussiëren in een script:<br><br>1. De Paranoïde Veiligheidsmanager (denkt in doemscenario's)<br>2. De Gen-Z TikTok Queen (spreekt in slang, beoordeelt 'cringe' factor)<br>3. De Gierige Klant (wil alles voor een dubbeltje)<br><br>Conclusie: Doen of niet?"
+    "prompt": "We evalueren het concept (Oma op scooter). Laat deze 3 persona's met elkaar discussiëren in een script:<br><br>1. De Paranoïde Veiligheidsmanager (denkt in doemscenario's)<br>2. De Gen-Z TikTok Queen (spreekt in slang, beoordeelt 'cringe' factor)<br>3. De Gierige Klant (wil alles voor een dubbeltje)<br><br>Conclusie: Doen of niet?"
   },
 
   {
     "type": "OUTRO",
-    "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/8f7e861ea8cce0c68fb48bb323aad771f0a28b75/End.png",
     "titel": "KLAAR VOOR DE START?",
     "tekst": "AI is geen tool.<br>Het is je nieuwe team."
   }
