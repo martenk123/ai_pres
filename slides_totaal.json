@@ -1,0 +1,18 @@
+[
+  {
+    "titel": "Welkom bij de Workshop",
+    "subtitel": "Start",
+    "tekst": "Druk op spatie om te beginnen"
+  },
+  {
+    "sectie": "Deel 1",
+    "titel": "Context is Koning",
+    "tekst": "Waarom input belangrijk is."
+  },
+  {
+    "type": "Opdracht",
+    "titel": "Schrijf een prompt",
+    "tekst": "Probeer het volgende:",
+    "prompt": "Schrijf een artikel van 200 woorden over..."
+  }
+]
