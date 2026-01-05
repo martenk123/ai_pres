@@ -124,7 +124,7 @@
     "sectie": "OPDRACHT 4 - RESULTAAT",
     "titel": "Het Resultaat",
     "tekst": "Plak je prompt in Gemini en zie de magie.",
-    "afbeelding": "https://raw.githubusercontent.com/martenk123/ai_pres/6540dd9a29006c62e42b66f45566121aa2a6a168/oma.png"
+    "afbeelding": "https://raw.githubusercontent.com/martenk123/ai_pres/main/oma.png"
   },
   {
     "type": "FUN",
@@ -142,22 +142,12 @@
     "titel": "De Reality Check",
     "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
   },
-{
-    "type": "REVEAL",
-    "titel": "OPDRACHT 5",
-    "subtitel": "HET KRITISCHE PANEL"
-  },
-  {
-    "sectie": "OPDRACHT 5 - SITUATIE",
-    "titel": "De Reality Check",
-    "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
-  },
   {
     "sectie": "OPDRACHT 5 - DE OPDRACHT",
     "type": "PERSONA_GRID",
     "titel": "Het Panel",
     "intro_tekst": "Stap 1: Sleep het bestand <strong>personas.pdf</strong> in Gemini.<br>Stap 2: Plak onderstaande prompt erbij:",
-    "prompt": "Ik upload hierbij de persona-profielen van ons kritische panel. \n\nCONTEXT VAN DE CASE:\nWe lanceren 'GreenWheels Pro' (stemgestuurde scooters). Ons bedachte lanceer-idee is: Een oma die op een knalgele scooter keihard door een stille bibliotheek scheurt.\n\nJOUW TAAK:\n1. Analyseer de geüploade persona's (Rob, Nova, Peter).\n2. Laat dit panel met elkaar in discussie gaan over ons idee.\n3. Laat ze focussen op hun specifieke expertise (Veiligheid, Viraliteit, Budget).\n4. Kom tot een gezamenlijke conclusie: Wel of niet doen? En wat moet er anders?",
+    "prompt": "Ik upload hierbij de profielen van ons panel (personas.pdf).\n\nDE CASE:\nWe lanceren 'GreenWheels Pro' (stemgestuurde scooters) met als stunt: Een oma die op een knalgele scooter door een stille bibliotheek scheurt.\n\nJOUW TAAK:\n1. Analyseer de geüploade persona's (Rob, Nova, Peter).\n2. Schrijf een discussie-script waarin ze reageren op dit plan.\n3. BELANGRIJK: Zorg dat Rob formeel blijft, Nova in slang spreekt en Peter alleen aan geld denkt. Meng de stijlen niet!\n4. Eindig met een gezamenlijke conclusie: Go or No Go?",
     "personas": [
       {
         "naam": "ROB",
