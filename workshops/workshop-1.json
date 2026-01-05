@@ -146,8 +146,8 @@
     "sectie": "OPDRACHT 5 - DE OPDRACHT",
     "type": "PERSONA_GRID",
     "titel": "Het Panel",
-    "intro_tekst": "Sleep het bestand <strong>personas.pdf</strong> in Gemini en gebruik de prompt hieronder om de discussie te starten:",
-    "prompt": "CONTEXT:\nWe lanceren 'GreenWheels Pro' (stemgestuurde scooters) met als stunt: Een oma die op een knalgele scooter door een stille bibliotheek scheurt.\n\nINSTRUCTIE:\nIk heb zojuist persona's geüpload. Gebruik deze profielen strikt.\n\nTAAK:\n1. Laat Rob, Nova en Peter discussiëren over mijn plan.\n2. Laat ze reageren vanuit hun eigen expertise (Veiligheid vs Viraliteit vs Geld).\n3. Zorg dat de stijlen NIET mengen (Rob blijft formeel, Nova gebruikt slang).\n\nConclusie: Go or No Go?",
+    "intro_tekst": "<strong>Stap 1:</strong> Sleep het bestand <code>personas.pdf</code> in Gemini.<br><strong>Stap 2:</strong> Kopieer onderstaande prompt en plak deze in de chat. Wijzig niks!",
+    "prompt": "CONTEXT: We lanceren 'GreenWheels Pro' (stemgestuurde scooters) met als stunt: Een oma die op een knalgele scooter door een stille bibliotheek scheurt.\n\nINSTRUCTIE: Ik heb zojuist persona's geüpload. Gebruik deze profielen strikt.\n\nTAAK:\n1. Laat Rob, Nova en Peter discussiëren over mijn plan.\n2. Zorg dat de stijlen NIET mengen (Rob blijft formeel, Nova gebruikt slang).\n3. Conclusie: Go or No Go?",
     "personas": [
       {
         "naam": "ROB",
@@ -181,13 +181,13 @@
       }
     ]
   },
-{
+  {
     "sectie": "OPDRACHT 5 - RESULTAAT",
     "titel": "Het Resultaat",
     "tekst": "De AI simuleert een levensechte vergadering. Je ziet direct waar de pijnpunten zitten (veiligheid!) en waar de kansen liggen (viraliteit!).",
     "type": "CHAT",
     "deelnemers": "Peter, Nova, Rob",
-    "tekst": "<strong>Peter:</strong> 'Mensen, tijd is geld. Oma op een scooter in de bieb. Wat kost dat en wat levert het op?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld even, dit is pure content gold! Main character energy. Het contrast is iconic. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier ten stelligste bezwaar tegen maken. Een gemotoriseerd voertuig in een afgesloten ruimte met papieren materialen? Dat is een nachtmerrie voor de brandveiligheid.'<br><br><strong>Nova:</strong> 'Rob, doe niet zo salty. Het is een vibe.'<br><br><strong>Rob:</strong> 'Het is geen vibe, mevrouw Nova, het is een aansprakelijkheidsrisico van de bovenste plank.'<br><br><strong>Peter:</strong> 'Rob, bespaar me de details. Nova, hoeveel views garandeer je? Chaos verkoopt. Rob, regel de verzekering. Klaar.'"
+    "chat_inhoud": "<strong>Peter:</strong> 'Mensen, tijd is geld. Oma op een scooter in de bieb. Wat kost dat en wat levert het op?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld even, dit is pure content gold! Main character energy. Het contrast is iconic. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier ten stelligste bezwaar tegen maken. Een gemotoriseerd voertuig in een afgesloten ruimte met papieren materialen? Dat is een nachtmerrie voor de brandveiligheid.'<br><br><strong>Nova:</strong> 'Rob, doe niet zo salty. Het is een vibe.'<br><br><strong>Rob:</strong> 'Het is geen vibe, mevrouw Nova, het is een aansprakelijkheidsrisico van de bovenste plank.'<br><br><strong>Peter:</strong> 'Rob, bespaar me de details. Nova, hoeveel views garandeer je? Chaos verkoopt. Rob, regel de verzekering. Klaar.'"
   },
 
   {
