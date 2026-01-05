@@ -1,18 +1,49 @@
 [
   {
-    "titel": "Welkom bij de Workshop",
-    "subtitel": "Start",
-    "tekst": "Druk op spatie om te beginnen"
+    "titel": "AI Workshop 2025",
+    "subtitel": "Van Chatbot naar Slimme Collega",
+    "tekst": "Ontdek de 5 krachtigste toepassingen van Gemini.",
+    "type": "INTRO"
   },
   {
-    "sectie": "Deel 1",
-    "titel": "Context is Koning",
-    "tekst": "Waarom input belangrijk is."
+    "sectie": "CASUS 1",
+    "titel": "De E-mail Politie",
+    "subtitel": "Van rommelige notities naar goud",
+    "tekst": "Bespaar dagelijks tijd door ruwe steekwoorden direct om te zetten in professionele communicatie.",
+    "prompt": "Ik heb hier wat ruwe notities van een call met klant Jansen. Schrijf een professionele follow-up e-mail waarin we de actiepunten bevestigen. Toon: behulpzaam en proactief.<br><br>Notities: Call met Peter, ging goed, offerte was ok maar prijs iets te hoog, wil 5% korting als ze voor vrijdag tekenen, startdatum project 1 april, ik stuur aangepast contract morgen."
   },
   {
-    "type": "Opdracht",
-    "titel": "Schrijf een prompt",
-    "tekst": "Probeer het volgende:",
-    "prompt": "Schrijf een artikel van 200 woorden over..."
+    "sectie": "CASUS 2",
+    "titel": "De Marktanalist",
+    "subtitel": "Deep Research",
+    "tekst": "Stop met het openen van 20 tabbladen. Laat Gemini trends synthetiseren in minuten.",
+    "prompt": "Doe diepgaand onderzoek naar de top 3 trends op het gebied van [Jouw Onderwerp] voor 2025.<br><br>Geef me per trend:<br>1. Een korte samenvatting.<br>2. De grootste uitdaging voor bedrijven.<br>3. Een concreet voorbeeld.<br>Vermeld ook je bronnen."
+  },
+  {
+    "sectie": "CASUS 3",
+    "titel": "De Virtuele Presentator",
+    "subtitel": "Video & Scripting",
+    "tekst": "Een elevator pitch of welkomstvideo nodig? Begin met een sterk script.",
+    "prompt": "Schrijf een script van 30 seconden voor een wervende video waarin we onze afdeling [Naam Afdeling] presenteren aan nieuwe medewerkers. De toon moet energiek en verwelkomend zijn."
+  },
+  {
+    "sectie": "CASUS 4",
+    "titel": "De Slide Designer",
+    "subtitel": "Uniek Beeldmateriaal",
+    "tekst": "Nooit meer saaie stockfoto's. Creëer precies wat je nodig hebt voor je presentatie.",
+    "prompt": "Genereer een afbeelding (landscape formaat) als achtergrond voor een presentatie.<br><br>Onderwerp: Een futuristische, lichte kantooromgeving met veel planten en technologie die naadloos samenwerken.<br>Stijl: Fotorealistisch, filmische belichting, professioneel, geen mensen in beeld, hoge resolutie."
+  },
+  {
+    "sectie": "CASUS 5",
+    "titel": "De Project Manager",
+    "subtitel": "Werken in Canvas",
+    "tekst": "Gebruik de editor-modus voor tabellen, planningen en samenwerking.",
+    "prompt": "Help me een teamuitje te plannen voor 20 collega's.<br>1. Bedenk 3 creatieve thema's.<br>2. Maak daaronder een tabel met een tijdschema (13:00 - 20:00).<br>3. Voeg een kolom toe voor kosten p.p.<br>Zorg voor ruimte voor een inhoudelijke sessie én een borrel."
+  },
+  {
+    "titel": "Aan de Slag",
+    "subtitel": "Jouw beurt",
+    "tekst": "Kies één van de casussen en probeer het nu zelf.",
+    "type": "OUTRO"
   }
 ]
