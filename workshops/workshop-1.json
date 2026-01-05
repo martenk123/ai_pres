@@ -142,12 +142,22 @@
     "titel": "De Reality Check",
     "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
   },
+{
+    "type": "REVEAL",
+    "titel": "OPDRACHT 5",
+    "subtitel": "HET KRITISCHE PANEL"
+  },
+  {
+    "sectie": "OPDRACHT 5 - SITUATIE",
+    "titel": "De Reality Check",
+    "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
+  },
   {
     "sectie": "OPDRACHT 5 - DE OPDRACHT",
     "type": "PERSONA_GRID",
     "titel": "Het Panel",
-    "intro_tekst": "Kopieer de prompt hieronder om deze 3 persona's tot leven te wekken in Gemini:",
-    "prompt": "Ik wil dat je 3 persona's aanneemt die mijn plan ('oma op scooter in bieb') beoordelen:\n\n1. ROB (Safety Manager): Focus op brandveiligheid en risico's. Is streng.\n2. NOVA (Gen-Z Marketeer): Focus op viraliteit en 'cringe' factor. Spreekt in slang.\n3. PETER (De Klant): Focus op budget en resultaat. Is kortaf.\n\nStart een discussie tussen deze drie over mijn plan.",
+    "intro_tekst": "Stap 1: Sleep het bestand <strong>personas.pdf</strong> in Gemini.<br>Stap 2: Plak onderstaande prompt erbij:",
+    "prompt": "Ik upload hierbij de persona-profielen van ons kritische panel. \n\nCONTEXT VAN DE CASE:\nWe lanceren 'GreenWheels Pro' (stemgestuurde scooters). Ons bedachte lanceer-idee is: Een oma die op een knalgele scooter keihard door een stille bibliotheek scheurt.\n\nJOUW TAAK:\n1. Analyseer de geüploade persona's (Rob, Nova, Peter).\n2. Laat dit panel met elkaar in discussie gaan over ons idee.\n3. Laat ze focussen op hun specifieke expertise (Veiligheid, Viraliteit, Budget).\n4. Kom tot een gezamenlijke conclusie: Wel of niet doen? En wat moet er anders?",
     "personas": [
       {
         "naam": "ROB",
