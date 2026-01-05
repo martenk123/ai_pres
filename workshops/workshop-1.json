@@ -96,7 +96,7 @@
     "sectie": "OPDRACHT 4",
     "titel": "Jouw Taak",
     "tekst": "We gaan beeld maken in Gemini (via Nano Banana/Imagen). We hebben een technische beschrijving nodig.",
-    "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een AI-generator (zoals Nano Banana):<br><br>Scene: Oma op knalgele scooter schreeuwend in een bibliotheek.<br><br>Beschrijf in detail voor de generator:<br>- Belichting (cinematic, neon?)<br>- Camerahoek (low angle?)<br>- Stijl (Cyberpunk, Fotorealistisch)"
+    "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een image generator.\n\nScene: Oma op knalgele scooter schreeuwend in een bibliotheek.\n\nVereisten:\n- Beschrijf de belichting (Neon, Cinematic)\n- Beschrijf de camerahoek (Low angle, wide shot)\n- Stijl: Cyberpunk, Hyperrealistisch, 8k\n\nSchrijf alleen de prompt, geen inleiding."
   },
   {
     "sectie": "OPDRACHT 4",
