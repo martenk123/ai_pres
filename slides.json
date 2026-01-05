@@ -1,0 +1,12 @@
+[
+  {
+    "titel": "Welkom bij de Presentatie",
+    "tekst": "Dit is de introductie slide.",
+    "afbeelding": "https://raw.githubusercontent.com/JOUWNAAM/REPO/main/plaatje1.jpg"
+  },
+  {
+    "titel": "Onze Resultaten",
+    "tekst": "We hebben 20% groei gerealiseerd.",
+    "afbeelding": "https://raw.githubusercontent.com/JOUWNAAM/REPO/main/grafiek.png"
+  }
+]
