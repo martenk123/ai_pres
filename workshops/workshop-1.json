@@ -1,16 +1,13 @@
 [
   {
+    "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/8f7e861ea8cce0c68fb48bb323aad771f0a28b75/Start.png",
+    "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/8f7e861ea8cce0c68fb48bb323aad771f0a28b75/End.png",
     "type": "BASIS",
-    "titel": "Workshop Deel 1",
-    "subtitel": "De Basis",
-    "tekst": "Dit bestand staat in de map 'basis'."
+    "titel": "Workshop 1",
+    "tekst": "Dit is de eerste workshop."
   },
   {
-    "titel": "Dia 1",
-    "tekst": "Hier leren we de basisprincipes."
-  },
-  {
-    "titel": "Einde Basis",
-    "tekst": "Dit was de eerste dataset."
+    "titel": "Slide 2",
+    "tekst": "Hier is meer tekst."
   }
 ]
