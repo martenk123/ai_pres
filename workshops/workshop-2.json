@@ -1,16 +1,9 @@
 [
   {
-    "type": "FUTURE",
-    "titel": "Workshop Deel 2",
-    "subtitel": "Toekomstmuziek",
-    "tekst": "Dit bestand wordt opgehaald uit de map 'future'."
-  },
-  {
-    "titel": "Dia 1",
-    "tekst": "Hier staan hele andere onderwerpen."
-  },
-  {
-    "titel": "Einde Future",
-    "tekst": "Zie je hoe makkelijk je wisselt?"
+    "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/8f7e861ea8cce0c68fb48bb323aad771f0a28b75/Start.png",
+    "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/8f7e861ea8cce0c68fb48bb323aad771f0a28b75/End.png",
+    "type": "GEVORDERD",
+    "titel": "Workshop 2",
+    "tekst": "Dit is de tweede workshop."
   }
 ]
