@@ -41,9 +41,15 @@
     "prompt": "Help me een teamuitje te plannen voor 20 collega's.<br>1. Bedenk 3 creatieve thema's.<br>2. Maak daaronder een tabel met een tijdschema (13:00 - 20:00).<br>3. Voeg een kolom toe voor kosten p.p.<br>Zorg voor ruimte voor een inhoudelijke sessie én een borrel."
   },
   {
-    "titel": "Aan de Slag",
-    "subtitel": "Jouw beurt",
-    "tekst": "Kies één van de casussen en probeer het nu zelf.",
+    "sectie": "CASUS 5",
+    "titel": "De Project Manager",
+    "subtitel": "Werken in Canvas",
+    "tekst": "Gebruik de editor-modus voor tabellen, planningen en samenwerking.",
+    "prompt": "Help me een teamuitje te plannen voor 20 collega's.<br>1. Bedenk 3 creatieve thema's.<br>2. Maak daaronder een tabel met een tijdschema (13:00 - 20:00).<br>3. Voeg een kolom toe voor kosten p.p.<br>Zorg voor ruimte voor een inhoudelijke sessie én een borrel."
+  },
+  {
+    "titel": "Bedankt!",
     "type": "OUTRO"
   }
 ]
+
