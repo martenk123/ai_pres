@@ -1,7 +1,6 @@
 [
   {
     "type": "INTRO",
-    "kleur": "#00ff88",
     "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/main/Start.png",
     "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/main/End.png",
     "titel": "AI POWER-UP",
@@ -20,21 +19,21 @@
     "subtitel": "DE CONTEXT-SETTER"
   },
   {
-    "sectie": "OPDRACHT 1",
+    "sectie": "OPDRACHT 1 - SITUATIE",
     "type": "EMAIL", 
-    "titel": "Inkomende Mail",
+    "titel": "De Paniekmail",
     "afzender": "Peter (GreenWheels Pro) <peter@gwp.nl>",
     "onderwerp": "URGENT: LANCERING",
     "tekst": "Hoi team,<br><br>Korte update: we moeten morgen live maar ik heb nog <strong>geen persbericht</strong> en de <strong>locatie is afgebrand</strong> dus we moeten iets anders??<br><br>Oh en budget is gehalveerd. Kunnen we ook een video doen?<br><br>Gr,<br>Peter"
   },
   {
-    "sectie": "OPDRACHT 1",
+    "sectie": "OPDRACHT 1 - DE OPDRACHT",
     "titel": "Jouw Taak",
     "tekst": "We gebruiken AI als <strong>Executive Assistant</strong> om rust te creëren.",
-    "prompt": "Gedraag je als een ervaren Executive Assistant. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
+    "prompt": "Gedraag je als een ervaren Executive Assistant bij een mediabureau. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
   },
   {
-    "sectie": "OPDRACHT 1",
+    "sectie": "OPDRACHT 1 - RESULTAAT",
     "titel": "Het Resultaat",
     "tekst": "Je hebt nu overzicht en de klant is rustig. Tijdswinst: 15 minuten.",
     "afbeelding": "https://image.pollinations.ai/prompt/futuristic%20holographic%20checklist%20interface%20cyberpunk%20style?width=1080&height=720&nologo=true"
@@ -51,20 +50,20 @@
     "subtitel": "DE DIRECTIVE GEBRUIKER"
   },
   {
-    "sectie": "OPDRACHT 2",
+    "sectie": "OPDRACHT 2 - SITUATIE",
     "type": "DOC",
-    "titel": "Briefing Document",
+    "titel": "De Huisstijl",
     "bestandsnaam": "Tone_of_Voice.pdf",
     "tekst": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><br><strong>DOEL:</strong> Persbericht lancering stemgestuurde scooters."
   },
   {
-    "sectie": "OPDRACHT 2",
+    "sectie": "OPDRACHT 2 - DE OPDRACHT",
     "titel": "Jouw Taak",
     "tekst": "We dwingen AI in een strak keurslijf met een <strong>Directive</strong>.",
     "prompt": "Schrijf een persbericht voor de lancering. <br><br>Gebruik deze DIRECTIVE:<br>- Toon: Energiek, rebels, korte zinnen.<br>- Verboden woorden: 'Duurzaamheid', 'Innovatief'.<br>- Structuur: Begin met een grap, eindig met call-to-action.<br><br>Onderwerp: Lancering stemgestuurde scooters."
   },
   {
-    "sectie": "OPDRACHT 2",
+    "sectie": "OPDRACHT 2 - RESULTAAT",
     "titel": "Het Resultaat",
     "tekst": "Een tekst die direct klinkt als het merk, zonder de standaard AI-saaiheid.",
     "afbeelding": "https://image.pollinations.ai/prompt/cyberpunk%20newspaper%20headline%20press%20release%20neon%20lights?width=1080&height=720&nologo=true"
@@ -81,10 +80,26 @@
     "subtitel": "DE CREATIEVE BRAINSTORMER"
   },
   {
-    "sectie": "OPDRACHT 3",
+    "sectie": "OPDRACHT 3 - SITUATIE",
+    "titel": "Locatie Crisis",
+    "tekst": "De oorspronkelijke locatie is afgebrand. We hebben NU een nieuw, wild idee nodig voor de lancering. De klant staat open voor alles."
+  },
+  {
+    "sectie": "OPDRACHT 3 - DE OPDRACHT",
     "titel": "Jouw Taak",
-    "tekst": "De locatie is afgebrand. We vragen AI om een <strong>excentrieke kunstenaar</strong> te zijn voor nieuwe ideeën.",
+    "tekst": "We vragen AI om een <strong>excentrieke kunstenaar</strong> te zijn voor nieuwe ideeën.",
     "prompt": "Verplaats je in de rol van een excentrieke festival-organisator. Geld speelt geen rol, veiligheid is bijzaak.<br><br>Bedenk 3 concepten voor de lancering:<br>1. Futuristisch (Cyberpunk)<br>2. Nostalgisch (Jaren 90)<br>3. Totaal Absurd<br><br>Beschrijf bij elk de openingsstunt."
+  },
+  {
+    "sectie": "OPDRACHT 3 - RESULTAAT",
+    "titel": "Het Resultaat",
+    "tekst": "Ideeën waar je zelf nooit op was gekomen. AI doorbreekt je 'writers block'.",
+    "afbeelding": "https://image.pollinations.ai/prompt/crazy%20festival%20concept%20art%20neon%20lights%20crowd%20cyberpunk?width=1080&height=720&nologo=true"
+  },
+  {
+    "type": "FUN",
+    "titel": "HUMOR MODULE MISSING",
+    "tekst": "Wist je dat AI geen humor heeft? Hij 'berekent' grappen op basis van patronen. Daarom zijn AI-moppen vaak net niet grappig."
   },
   
   {
@@ -93,16 +108,26 @@
     "subtitel": "DE VISUELE VERTALER"
   },
   {
-    "sectie": "OPDRACHT 4",
+    "sectie": "OPDRACHT 4 - SITUATIE",
+    "titel": "Briefing voor Beeld",
+    "tekst": "We hebben gekozen voor het 'Absurde' concept: Een oma op een race-scooter in een bibliotheek. Nu moeten we dit beeld genereren."
+  },
+  {
+    "sectie": "OPDRACHT 4 - DE OPDRACHT",
     "titel": "Jouw Taak",
     "tekst": "We gaan beeld maken in Gemini (via Nano Banana/Imagen). We hebben een technische beschrijving nodig.",
     "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een image generator.\n\nScene: Oma op knalgele scooter schreeuwend in een bibliotheek.\n\nVereisten:\n- Beschrijf de belichting (Neon, Cinematic)\n- Beschrijf de camerahoek (Low angle, wide shot)\n- Stijl: Cyberpunk, Hyperrealistisch, 8k\n\nSchrijf alleen de prompt, geen inleiding."
   },
   {
-    "sectie": "OPDRACHT 4",
+    "sectie": "OPDRACHT 4 - RESULTAAT",
     "titel": "Het Resultaat",
     "tekst": "Plak je prompt in Gemini en zie de magie.",
     "afbeelding": "https://image.pollinations.ai/prompt/cyberpunk%20grandmother%20on%20neon%20scooter%20in%20library%20cinematic%20lighting?width=1080&height=720&nologo=true"
+  },
+  {
+    "type": "FUN",
+    "titel": "PIXELS TELL LIES",
+    "tekst": "Let op vingers en teksten in AI afbeeldingen. Dat zijn vaak de plekken waar je ziet dat het nep is."
   },
   
   {
@@ -111,17 +136,23 @@
     "subtitel": "HET KRITISCHE PANEL"
   },
   {
-    "sectie": "OPDRACHT 5",
+    "sectie": "OPDRACHT 5 - SITUATIE",
     "type": "CHAT",
-    "titel": "Het Panel",
+    "titel": "Interne Discussie",
     "deelnemers": "Veiligheid, Gen-Z, Klant",
-    "tekst": "<strong>Veiligheidsmanager Rob:</strong> 'Dit is volstrekt onverantwoord. Een scooter in een bibliotheek? Denk aan de brandverzekering!'<br><br><strong>Gen-Z influencer Nova:</strong> 'Eerlijk? Het is wel low-key iconic. Als die oma een wheelie doet, gaat dit 100% viral op TikTok. No cap.'<br><br><strong>Klant Peter:</strong> 'Leuk die viraliteit, Nova, maar wie gaat die boeken betalen als ze omvallen? Kan het ook met een kartonnen scooter?'"
+    "tekst": "<strong>Veiligheidsmanager Rob:</strong> 'Dit is volstrekt onverantwoord. Een scooter in een bibliotheek? Denk aan de brandverzekering!'<br><br><strong>Gen-Z influencer Nova:</strong> 'Eerlijk? Het is wel low-key iconic. Als die oma een wheelie doet, gaat dit 100% viral op TikTok. No cap.'<br><br><strong>Klant Peter:</strong> 'Leuk die viraliteit, Nova, maar wie gaat die boeken betalen als ze omvallen?'"
   },
   {
-    "sectie": "OPDRACHT 5",
+    "sectie": "OPDRACHT 5 - DE OPDRACHT",
     "titel": "Jouw Taak",
     "tekst": "We laten AI kritisch zijn door extreme persona's in te zetten.",
     "prompt": "We evalueren het concept (Oma op scooter). Laat deze 3 persona's met elkaar discussiëren in een script:<br><br>1. De Paranoïde Veiligheidsmanager (denkt in doemscenario's)<br>2. De Gen-Z TikTok Queen (spreekt in slang, beoordeelt 'cringe' factor)<br>3. De Gierige Klant (wil alles voor een dubbeltje)<br><br>Conclusie: Doen of niet?"
+  },
+  {
+    "sectie": "OPDRACHT 5 - RESULTAAT",
+    "titel": "Het Resultaat",
+    "tekst": "Je hebt je plan 'getest' zonder dat het een euro heeft gekost. Je bent voorbereid op kritische vragen.",
+    "afbeelding": "https://image.pollinations.ai/prompt/holographic%20meeting%20room%20debate%20cyberpunk%20style?width=1080&height=720&nologo=true"
   },
 
   {
