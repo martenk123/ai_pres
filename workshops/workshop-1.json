@@ -2,8 +2,8 @@
   {
     "type": "INTRO",
     "kleur": "#00ff88",
-    "imgStart": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop",
-    "imgEnd": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop",
+    "imgStart": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070",
+    "imgEnd": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070",
     "titel": "AI Power-Up",
     "subtitel": "La Plume Media Workshop",
     "tekst": "Hoe we AI inzetten voor administratie, creatie en strategie."
@@ -11,7 +11,7 @@
   {
     "type": "CASE",
     "titel": "De Case: Project GreenLaunch",
-    "tekst": "La Plume heeft zojuist een nieuwe klant: <strong>GreenWheels Pro</strong> (elektrische deelscooters).<br><br><strong>Het probleem:</strong> De klant is chaotisch, de deadline is morgen en de locatie voor de lancering is afgebrand.<br><br><strong>Ons doel:</strong> In 30 minuten een complete campagne bouwen."
+    "tekst": "La Plume heeft zojuist een nieuwe klant: <strong>GreenWheels Pro</strong>.<br><br><strong>Het probleem:</strong> De klant is chaotisch, de deadline is morgen en de locatie voor de lancering is afgebrand."
   },
   
   {
@@ -21,9 +21,11 @@
   },
   {
     "sectie": "OPDRACHT 1",
-    "type": "SITUATIE",
-    "titel": "De Paniekmail",
-    "tekst": "Er komt een mail binnen van klant Peter. Het is één grote brij van paniek en onsamenhangende info.<br><br><em>'Hoi team, morgen live met scooters maar persbericht is er niet en locatie afgebrand dus we moeten iets met een tent? En video? Budget is dingetje. Gr Peter'</em>"
+    "type": "EMAIL", 
+    "titel": "Nieuw bericht van Peter",
+    "afzender": "Peter de Vries <peter@greenwheelspro.nl>",
+    "onderwerp": "HELP!! Lancering morgen??",
+    "tekst": "Hoi team,<br><br>We moeten morgen dus live met die scooters maar ik heb nog <strong>geen persbericht</strong> en oh ja de <strong>locatie voor de borrel is afgebrand</strong> dus we moeten iets anders, misschien iets met een tent?<br><br>En kunnen we ook een video doen? Budget is wel een dingetje.<br><br>Gr,<br>Peter"
   },
   {
     "sectie": "OPDRACHT 1",
@@ -49,7 +51,6 @@
   },
   {
     "sectie": "OPDRACHT 2",
-    "type": "SITUATIE",
     "titel": "Het Persbericht",
     "tekst": "We moeten pers benaderen. Maar een standaard tekst werkt niet voor GreenWheels Pro. Ze zijn een rebels merk."
   },
@@ -60,24 +61,12 @@
     "prompt": "Schrijf een persbericht. Volg deze DIRECTIVE:<br>- Toon: Energiek, rebels, korte zinnen (Oatly stijl).<br>- Verboden woorden: 'Duurzaamheid', 'Innovatief'.<br>- Structuur: Begin met een grap, eindig met call-to-action.<br><br>Onderwerp: Lancering stemgestuurde scooters."
   },
   {
-    "sectie": "OPDRACHT 2",
-    "titel": "Het Resultaat",
-    "tekst": "Een tekst met karakter die direct 'on brand' is, zonder dat je zelf elk woord hoeft te verzinnen."
-  },
-  {
-    "type": "FUN",
-    "titel": "Pro Tip",
-    "tekst": "Je kunt AI ook vragen om een tekst te herschrijven 'voor een 5-jarige' of 'als een piratenkapitein'. Probeer het eens!"
-  },
-
-  {
     "type": "REVEAL",
     "titel": "OPDRACHT 3",
     "subtitel": "DE CREATIEVE BRAINSTORMER"
   },
   {
     "sectie": "OPDRACHT 3",
-    "type": "SITUATIE",
     "titel": "Locatie Crisis",
     "tekst": "De oorspronkelijke locatie is afgebrand. We hebben NU een nieuw, wild idee nodig voor de lancering."
   },
@@ -88,24 +77,12 @@
     "prompt": "Verplaats je in de rol van een excentrieke festival-organisator. Geld speelt geen rol.<br><br>Bedenk 3 concepten voor de lancering:<br>1. Futuristisch<br>2. Nostalgisch<br>3. Totaal Absurd<br><br>Beschrijf bij elk de openingsstunt."
   },
   {
-    "sectie": "OPDRACHT 3",
-    "titel": "Het Resultaat",
-    "tekst": "Ideeën waar je zelf nooit op was gekomen (Oma's op scooters? Lasers in een grot?). AI doorbreekt je creative block."
-  },
-  {
-    "type": "FUN",
-    "titel": "Tussendoortje",
-    "tekst": "Wist je dat AI geen humor heeft? Hij *simuleert* humor door patronen van grappen te analyseren."
-  },
-
-  {
     "type": "REVEAL",
     "titel": "OPDRACHT 4",
     "subtitel": "DE VISUELE VERTALER"
   },
   {
     "sectie": "OPDRACHT 4",
-    "type": "SITUATIE",
     "titel": "Briefing voor Beeld",
     "tekst": "We hebben gekozen voor het 'Absurde' concept: Een oma op een race-scooter in een bibliotheek. Nu moeten we de fotograaf/designer briefen."
   },
@@ -118,20 +95,13 @@
   {
     "sectie": "OPDRACHT 4",
     "titel": "Het Resultaat",
-    "tekst": "Een gedetailleerde prompt die je direct in Midjourney kunt plakken voor een perfect plaatje.",
+    "tekst": "Een gedetailleerde prompt die je direct in Midjourney kunt plakken.",
     "afbeelding": "https://image.pollinations.ai/prompt/grandmother%20riding%20yellow%20scooter%20in%20library%20cinematic%20lighting?width=1080&height=720&nologo=true"
   },
-  
   {
     "type": "REVEAL",
     "titel": "OPDRACHT 5",
-    "subtitel": "DE ADVOCAAT VAN DE DUIVEL"
-  },
-  {
-    "sectie": "OPDRACHT 5",
-    "type": "SITUATIE",
-    "titel": "De Check",
-    "tekst": "Het plan ligt er. Maar is het wel goed? Zitten er risico's aan?"
+    "subtitel": "DE FEEDBACK LOOP"
   },
   {
     "sectie": "OPDRACHT 5",
@@ -140,19 +110,9 @@
     "prompt": "We evalueren het concept (Oma op scooter). Laat deze 3 persona's discussiëren:<br><br>1. De Veiligheidsmanager (Risico's)<br>2. De Gen-Z TikTokker (Cringe factor)<br>3. Klant Peter (Budget)<br><br>Schrijf hun script en eindig met: Doen of niet?"
   },
   {
-    "sectie": "OPDRACHT 5",
-    "titel": "Het Resultaat",
-    "tekst": "Je hebt je plan 'getest' zonder dat het een euro heeft gekost. Je bent voorbereid op kritische vragen."
-  },
-
-  {
-    "titel": "Resumé",
-    "tekst": "Vandaag hebben we AI gebruikt voor:<br>✅ Structuur (Admin)<br>✅ Huisstijl (Tekst)<br>✅ Creativiteit (Event)<br>✅ Briefing (Beeld)<br>✅ Kritiek (Strategie)<br><br>AI is je slimste collega, als je hem maar goed brieft."
-  },
-  {
     "type": "OUTRO",
     "titel": "Bedankt!",
-    "tekst": "Tijd om het zelf te proberen.",
+    "tekst": "AI is je slimste collega, als je hem maar goed brieft.",
     "imgEnd": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070"
   }
 ]
