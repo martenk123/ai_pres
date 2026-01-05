@@ -181,13 +181,13 @@
       }
     ]
   },
-  {
+{
     "sectie": "OPDRACHT 5 - RESULTAAT",
     "titel": "Het Resultaat",
-    "tekst": "Je krijgt een uitgeschreven script waarin deze drie met elkaar discussiëren. Je ziet direct de zwakke plekken (verzekering!) en de sterke punten (viraliteit!).",
+    "tekst": "De AI simuleert een levensechte vergadering. Je ziet direct waar de pijnpunten zitten (veiligheid!) en waar de kansen liggen (viraliteit!).",
     "type": "CHAT",
-    "deelnemers": "Rob, Nova, Peter",
-    "tekst": "<strong>ROB:</strong> 'Dit is volstrekt onverantwoord. Een scooter binnen? Denk aan de brandverzekering!'<br><br><strong>NOVA:</strong> 'Eerlijk? Het is wel low-key iconic. Als die oma een wheelie doet, gaat dit 100% viral.'<br><br><strong>PETER:</strong> 'Leuk die viraliteit, maar wie gaat die boeken betalen als ze omvallen? Kan het goedkoper?'"
+    "deelnemers": "Peter, Nova, Rob",
+    "tekst": "<strong>Peter:</strong> 'Mensen, tijd is geld. Oma op een scooter in de bieb. Wat kost dat en wat levert het op?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld even, dit is pure content gold! Main character energy. Het contrast is iconic. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier ten stelligste bezwaar tegen maken. Een gemotoriseerd voertuig in een afgesloten ruimte met papieren materialen? Dat is een nachtmerrie voor de brandveiligheid.'<br><br><strong>Nova:</strong> 'Rob, doe niet zo salty. Het is een vibe.'<br><br><strong>Rob:</strong> 'Het is geen vibe, mevrouw Nova, het is een aansprakelijkheidsrisico van de bovenste plank.'<br><br><strong>Peter:</strong> 'Rob, bespaar me de details. Nova, hoeveel views garandeer je? Chaos verkoopt. Rob, regel de verzekering. Klaar.'"
   },
 
   {
