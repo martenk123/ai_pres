@@ -1,0 +1,16 @@
+[
+  {
+    "type": "BASIS",
+    "titel": "Workshop Deel 1",
+    "subtitel": "De Basis",
+    "tekst": "Dit bestand staat in de map 'basis'."
+  },
+  {
+    "titel": "Dia 1",
+    "tekst": "Hier leren we de basisprincipes."
+  },
+  {
+    "titel": "Einde Basis",
+    "tekst": "Dit was de eerste dataset."
+  }
+]
