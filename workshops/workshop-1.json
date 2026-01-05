@@ -123,8 +123,8 @@
   {
     "sectie": "OPDRACHT 4 - RESULTAAT",
     "titel": "Het Resultaat",
-    "tekst": "Je krijgt een technisch perfecte beschrijving. Plak deze in Gemini en zie de magie.",
-    "afbeelding": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop"
+    "tekst": "Plak je prompt in Gemini en zie de magie.",
+    "afbeelding": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?q=80&w=1974&auto=format&fit=crop"
   },
   {
     "type": "FUN",
@@ -140,48 +140,48 @@
   {
     "sectie": "OPDRACHT 5 - SITUATIE",
     "titel": "De Reality Check",
-    "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op."
+    "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
   },
   {
     "sectie": "OPDRACHT 5 - DE OPDRACHT",
     "type": "PERSONA_GRID",
     "titel": "Het Panel",
-    "intro_tekst": "We vragen AI om deze 3 specifieke personas te simuleren en ons plan af te schieten.",
+    "intro_tekst": "Kopieer de prompt hieronder om deze 3 persona's tot leven te wekken in Gemini:",
+    "prompt": "Ik wil dat je 3 persona's aanneemt die mijn plan ('oma op scooter in bieb') beoordelen:\n\n1. ROB (Safety Manager): Focus op brandveiligheid en risico's. Is streng.\n2. NOVA (Gen-Z Marketeer): Focus op viraliteit en 'cringe' factor. Spreekt in slang.\n3. PETER (De Klant): Focus op budget en resultaat. Is kortaf.\n\nStart een discussie tussen deze drie over mijn plan.",
     "personas": [
       {
-        "naam": "ROB (Veiligheid)",
-        "leeftijd": "54",
-        "rol": "Safety Manager",
+        "naam": "ROB",
+        "rol": "Safety Manager (54)",
         "quote": "\"Risico is geen optie.\"",
-        "achtergrond": "Werkt al 20 jaar in de verzekeringen. Ziet overal gevaar. Heeft een hekel aan chaos.",
-        "focus": "Brandveiligheid, Aansprakelijkheid, Vergunningen.",
-        "taal": "Formeel, waarschuwend, gebruikt jargon."
+        "achtergrond": "Werkt al 20 jaar in de verzekeringen. Ziet overal gevaar.",
+        "focus": "Brandveiligheid, Aansprakelijkheid.",
+        "taal": "Formeel, waarschuwend."
       },
       {
-        "naam": "NOVA (Gen-Z)",
-        "leeftijd": "19",
-        "rol": "TikTok Specialist",
+        "naam": "NOVA",
+        "rol": "TikTok Specialist (19)",
         "quote": "\"Is dit cringe of iconic?\"",
-        "achtergrond": "Leeft op haar telefoon. Kent alle trends voordat ze trends zijn. Genadeloos eerlijk.",
-        "focus": "Viraliteit, Aesthetics, Cringe-factor.",
-        "taal": "Slang (no cap, slay), snel, direct, veel emojis."
+        "achtergrond": "Leeft op haar telefoon. Kent alle trends.",
+        "focus": "Viraliteit, Aesthetics.",
+        "taal": "Slang (no cap, slay), snel."
       },
       {
-        "naam": "PETER (Klant)",
-        "leeftijd": "45",
-        "rol": "CEO GreenWheels",
+        "naam": "PETER",
+        "rol": "CEO GreenWheels (45)",
         "quote": "\"Wat kost dat?\"",
-        "achtergrond": "Ondernemer. Heeft haast. Wil resultaat zien maar wil er niet voor betalen.",
-        "focus": "Budget, Deadline, Return on Investment.",
-        "taal": "Kortaf, zakelijk, gefocust op geld."
+        "achtergrond": "Ondernemer. Heeft haast.",
+        "focus": "Budget, Deadline.",
+        "taal": "Kortaf, zakelijk, geld-focus."
       }
     ]
   },
   {
     "sectie": "OPDRACHT 5 - RESULTAAT",
     "titel": "Het Resultaat",
-    "tekst": "Je krijgt een uitgeschreven script waarin deze drie met elkaar discussiëren over jouw idee. Je ziet direct de zwakke plekken (verzekering!) en de sterke punten (viraliteit!).",
-    "afbeelding": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format&fit=crop"
+    "tekst": "Je krijgt een uitgeschreven script waarin deze drie met elkaar discussiëren. Je ziet direct de zwakke plekken (verzekering!) en de sterke punten (viraliteit!).",
+    "type": "CHAT",
+    "deelnemers": "Rob, Nova, Peter",
+    "tekst": "<strong>ROB:</strong> 'Dit is volstrekt onverantwoord. Een scooter binnen? Denk aan de brandverzekering!'<br><br><strong>NOVA:</strong> 'Eerlijk? Het is wel low-key iconic. Als die oma een wheelie doet, gaat dit 100% viral.'<br><br><strong>PETER:</strong> 'Leuk die viraliteit, maar wie gaat die boeken betalen als ze omvallen? Kan het goedkoper?'"
   },
 
   {
