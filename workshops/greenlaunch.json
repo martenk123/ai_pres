@@ -7,13 +7,13 @@
     "subtitel": "LA PLUME MEDIA",
     "tekst": "Van Chatbot naar Slimme Collega."
   },
-  {
-    "type": "VIDEO_CALL",
-    "titel": "INCOMING CALL...",
-    "bellernaam": "Peter (GreenWheels Pro)",
-    "embed_url": "https://player.vimeo.com/video/1151868649?h=3d3a50c108&badge=0&autopause=0&player_id=0&app_id=58479",
-    "tekst": "De klant belt in met een noodgeval. Luister goed naar de briefing."
-  },
+{
+  "type": "VIDEO_CALL",
+  "titel": "INCOMING CALL...",
+  "bellernaam": "Peter (GreenWheels Pro)",
+  "embed_url": "https://vimeo.com/1151868649/3d3a50c108?share=copy&fl=sv&fe=ci",
+  "tekst": "De klant belt in met een noodgeval. Luister goed naar de briefing."
+}
   {
     "type": "CASE",
     "titel": "PROJECT GREENLAUNCH",
