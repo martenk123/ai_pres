@@ -46,6 +46,11 @@
     "afbeelding": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop"
   },
   {
+    "type": "FUN",
+    "titel": "GLITCH IN THE MATRIX",
+    "tekst": "AI 'hallucineert'. Als hij het antwoord niet weet, verzint hij soms vol overtuiging een feit. Check dus altijd je output!"
+  },
+  {
     "type": "REVEAL",
     "titel": "OPDRACHT 2",
     "subtitel": "DE DIRECTIVE GEBRUIKER"
@@ -71,6 +76,11 @@
     "afbeelding": "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?q=80&w=2070&auto=format&fit=crop"
   },
   {
+    "type": "FUN",
+    "titel": "SYSTEM OVERLOAD",
+    "tekst": "Pro-tip: Vraag Gemini eens om een tekst te herschrijven 'als een boze piraat' of 'voor een 5-jarige'. Het dwingt je om tot de kern te komen."
+  },
+  {
     "type": "REVEAL",
     "titel": "OPDRACHT 3",
     "subtitel": "DE CREATIEVE BRAINSTORMER"
@@ -91,6 +101,11 @@
     "titel": "Het Resultaat",
     "tekst": "Ideeën waar je zelf nooit op was gekomen (Lasers in een grot? Onderwater scooters?). AI is je sparringpartner voor inspiratie.",
     "afbeelding": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop"
+  },
+  {
+    "type": "FUN",
+    "titel": "HUMOR MODULE MISSING",
+    "tekst": "Wist je dat AI geen humor heeft? Hij 'berekent' grappen op basis van patronen. Daarom zijn AI-moppen vaak net niet grappig."
   },
   {
     "type": "REVEAL",
@@ -115,6 +130,11 @@
     "afbeelding": "https://raw.githubusercontent.com/martenk123/ai_pres/main/oma.png"
   },
   {
+    "type": "FUN",
+    "titel": "PIXELS TELL LIES",
+    "tekst": "Let op vingers en teksten in AI afbeeldingen. Dat zijn vaak de plekken waar je ziet dat het nep is."
+  },
+  {
     "type": "REVEAL",
     "titel": "OPDRACHT 5",
     "subtitel": "HET KRITISCHE PANEL"
@@ -134,17 +154,32 @@
       {
         "naam": "ROB",
         "rol": "Safety Manager (54)",
-        "quote": "\"Risico is geen optie.\""
+        "quote": "\"Risico is geen optie.\"",
+        "eigenschappen": [
+          "<strong>Achtergrond:</strong> 20 jaar verzekeringen. Ziet overal gevaar.",
+          "<strong>Focus:</strong> Brandveiligheid, Aansprakelijkheid.",
+          "<strong>Taal:</strong> Formeel, waarschuwend, jargon."
+        ]
       },
       {
         "naam": "NOVA",
         "rol": "TikTok Specialist (19)",
-        "quote": "\"Is dit cringe of iconic?\""
+        "quote": "\"Is dit cringe of iconic?\"",
+        "eigenschappen": [
+          "<strong>Achtergrond:</strong> Leeft op haar telefoon. Kent alle trends.",
+          "<strong>Focus:</strong> Viraliteit, Aesthetics, Cringe-factor.",
+          "<strong>Taal:</strong> Slang (no cap, slay), snel, direct."
+        ]
       },
       {
         "naam": "PETER",
         "rol": "CEO GreenWheels (45)",
-        "quote": "\"Wat kost dat?\""
+        "quote": "\"Wat kost dat?\"",
+        "eigenschappen": [
+          "<strong>Achtergrond:</strong> Ondernemer. Heeft haast. Wil resultaat.",
+          "<strong>Focus:</strong> Budget, Deadline, ROI.",
+          "<strong>Taal:</strong> Kortaf, zakelijk, gefocust op geld."
+        ]
       }
     ]
   },
@@ -154,7 +189,7 @@
     "tekst": "De AI analyseert de PDF en combineert dit met jouw 'Oma in de bieb' case. Hieronder het resultaat:",
     "type": "CHAT",
     "deelnemers": "Peter, Nova, Rob",
-    "chat_inhoud": "<strong>Peter:</strong> 'Wat kost dat?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld, dit is main character energy. Dit gaat sowieso viraal op mijn FYP. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier bezwaar tegen maken. Een gemotoriseerd voertuig in een bibliotheek is een nachtmerrie voor de brandveiligheid.'"
+    "chat_inhoud": "<strong>Peter:</strong> 'Mensen, tijd is geld. Ik zie hier een voorstel: Oma op een scooter in een bibliotheek. Eén vraag: Wat kost dat en wat levert het op?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld even, dit is pure content gold. Een oma? Op een neon gele scooter? In een silent library? Dat geeft echt main character energy. Het contrast is iconic. Dit gaat sowieso viraal op mijn FYP. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier ten stelligste bezwaar tegen maken. Een gemotoriseerd voertuig in een afgesloten ruimte met papieren materialen? Dat is een nachtmerrie voor de brandveiligheid.'<br><br><strong>Nova:</strong> 'Rob, doe niet zo salty. Het is een vibe.'<br><br><strong>Rob:</strong> 'Het is geen vibe, mevrouw Nova, het is een aansprakelijkheidsrisico van de bovenste plank. Wat als die, eh, oudere dame de controle verliest?'<br><br><strong>Peter:</strong> 'Rob, bespaar me de details. Is de verzekering gedekt binnen het huidige budget? En Nova, hoeveel views garandeer je? Als we onder de 10k blijven en het levert sales op, kan die brandveiligheid me weinig schelen.'"
   },
   {
     "type": "OUTRO",
