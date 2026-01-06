@@ -11,7 +11,7 @@
     "type": "VIDEO_CALL",
     "titel": "INCOMING CALL...",
     "bellernaam": "Peter (GreenWheels Pro)",
-    "embed_url": "https://player.vimeo.com/video/1151868649?badge=0&autopause=0&player_id=0&app_id=58479",
+    "embed_url": "https://player.vimeo.com/video/1151868649?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1",
     "tekst": "De klant belt in met een noodgeval. Luister goed naar de briefing."
   },
   {
@@ -91,6 +91,11 @@
     "titel": "Het Resultaat",
     "tekst": "Ideeën waar je zelf nooit op was gekomen (Lasers in een grot? Onderwater scooters?). AI is je sparringpartner voor inspiratie.",
     "afbeelding": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop"
+  },
+  {
+    "type": "FUN",
+    "titel": "HUMOR MODULE MISSING",
+    "tekst": "Wist je dat AI geen humor heeft? Hij 'berekent' grappen op basis van patronen. Daarom zijn AI-moppen vaak net niet grappig."
   },
   {
     "type": "REVEAL",
