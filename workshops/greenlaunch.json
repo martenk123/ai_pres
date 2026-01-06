@@ -46,6 +46,11 @@
     "afbeelding": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop"
   },
   {
+    "type": "FUN",
+    "titel": "GLITCH IN THE MATRIX",
+    "tekst": "AI 'hallucineert'. Als hij het antwoord niet weet, verzint hij soms vol overtuiging een feit. Check dus altijd je output!"
+  },
+  {
     "type": "REVEAL",
     "titel": "OPDRACHT 2",
     "subtitel": "DE DIRECTIVE GEBRUIKER"
@@ -71,6 +76,11 @@
     "afbeelding": "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?q=80&w=2070&auto=format&fit=crop"
   },
   {
+    "type": "FUN",
+    "titel": "SYSTEM OVERLOAD",
+    "tekst": "Pro-tip: Vraag Gemini eens om een tekst te herschrijven 'als een boze piraat' of 'voor een 5-jarige'. Het dwingt je om tot de kern te komen."
+  },
+  {
     "type": "REVEAL",
     "titel": "OPDRACHT 3",
     "subtitel": "DE CREATIEVE BRAINSTORMER"
@@ -93,6 +103,11 @@
     "afbeelding": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop"
   },
   {
+    "type": "FUN",
+    "titel": "HUMOR MODULE MISSING",
+    "tekst": "Wist je dat AI geen humor heeft? Hij 'berekent' grappen op basis van patronen. Daarom zijn AI-moppen vaak net niet grappig."
+  },
+  {
     "type": "REVEAL",
     "titel": "OPDRACHT 4",
     "subtitel": "DE VISUELE VERTALER"
@@ -113,6 +128,11 @@
     "titel": "Het Resultaat",
     "tekst": "Je krijgt een technisch perfecte beschrijving. Plak deze in Gemini en zie de magie.",
     "afbeelding": "https://raw.githubusercontent.com/martenk123/ai_pres/main/oma.png"
+  },
+  {
+    "type": "FUN",
+    "titel": "PIXELS TELL LIES",
+    "tekst": "Let op vingers en teksten in AI afbeeldingen. Dat zijn vaak de plekken waar je ziet dat het nep is."
   },
   {
     "type": "REVEAL",
