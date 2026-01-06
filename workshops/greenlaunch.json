@@ -1,7 +1,6 @@
 [
   {
     "type": "INTRO",
-    "kleur": "#00f3ff",
     "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/main/Start.png",
     "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/main/End.png",
     "titel": "AI POWER-UP",
@@ -27,7 +26,7 @@
   },
   {
     "sectie": "OPDRACHT 1 - SITUATIE",
-    "type": "EMAIL",
+    "type": "EMAIL", 
     "titel": "De Bevestiging",
     "tekst": "Peter stuurt vlak na het gesprek nog snel een warrige bevestigingsmail vanuit de auto.",
     "afzender": "Peter (GreenWheels Pro) <peter@gwp.nl>",
@@ -41,13 +40,79 @@
     "prompt": "Gedraag je als een ervaren Executive Assistant bij een mediabureau. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
   },
   {
-    "sectie": "OPDRACHT 2 - DE OPDRACHT",
+    "sectie": "OPDRACHT 1 - RESULTAAT",
+    "titel": "Het Resultaat",
+    "tekst": "In plaats van dat je zelf in de paniek schiet, heb je binnen 30 seconden een actielijst en een concept-antwoord. De klant voelt zich gehoord en jij hebt overzicht.",
+    "afbeelding": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop"
+  },
+  {
+    "type": "REVEAL",
+    "titel": "OPDRACHT 2",
+    "subtitel": "DE DIRECTIVE GEBRUIKER"
+  },
+  {
+    "sectie": "OPDRACHT 2 - SITUATIE",
     "type": "DOC",
     "titel": "De Huisstijl",
-    "tekst": "We moeten een persbericht schrijven. Gebruik deze <strong>Directive</strong>.",
+    "tekst": "We moeten pers benaderen. Maar als je AI vraagt 'schrijf een persbericht', krijg je een saaie drol. Wij hebben een specifieke <strong>Directive</strong> die we moeten volgen.",
     "bestandsnaam": "Tone_of_Voice.pdf",
-    "doc_inhoud": "<strong>MERK WAARDEN:</strong> Rebels & Energiek. Korte zinnen. Geen jargon.<br><strong>VERBODEN:</strong> 'Duurzaamheid', 'Synergie'.",
-    "prompt": "Schrijf een persbericht voor de lancering.<br><br>Toon: Energiek, rebels.<br>Verboden woorden: 'Duurzaamheid'.<br>Onderwerp: Stemgestuurde scooters."
+    "doc_inhoud": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><br><strong>DOEL:</strong> Persbericht lancering stemgestuurde scooters."
+  },
+  {
+    "sectie": "OPDRACHT 2 - DE OPDRACHT",
+    "titel": "Jouw Taak",
+    "tekst": "We dwingen AI in een strak keurslijf met de Directive. Zo krijg je tekst die direct bruikbaar is.",
+    "prompt": "Schrijf een persbericht voor de lancering. <br><br>Gebruik deze DIRECTIVE:<br>- Toon: Energiek, rebels, korte zinnen.<br>- Verboden woorden: 'Duurzaamheid', 'Innovatief'.<br>- Structuur: Begin met een grap, eindig met call-to-action.<br><br>Onderwerp: Lancering stemgestuurde scooters."
+  },
+  {
+    "sectie": "OPDRACHT 2 - RESULTAAT",
+    "titel": "Het Resultaat",
+    "tekst": "Een tekst met karakter die direct klinkt als het merk. Geen 'In de wereld van vandaag...' AI-clichés meer.",
+    "afbeelding": "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?q=80&w=2070&auto=format&fit=crop"
+  },
+  {
+    "type": "REVEAL",
+    "titel": "OPDRACHT 3",
+    "subtitel": "DE CREATIEVE BRAINSTORMER"
+  },
+  {
+    "sectie": "OPDRACHT 3 - SITUATIE",
+    "titel": "Locatie Crisis",
+    "tekst": "De oorspronkelijke locatie is afgebrand (zie mail). We hebben NU een nieuw, wild idee nodig voor de lancering. De klant staat open voor alles, zolang het maar opvalt."
+  },
+  {
+    "sectie": "OPDRACHT 3 - DE OPDRACHT",
+    "titel": "Jouw Taak",
+    "tekst": "We vragen AI om een <strong>excentrieke kunstenaar</strong> te zijn. Zo doorbreek je je eigen vaste denkpatronen.",
+    "prompt": "Verplaats je in de rol van een excentrieke festival-organisator. Geld speelt geen rol, veiligheid is bijzaak.<br><br>Bedenk 3 concepten voor de lancering:<br>1. Futuristisch (Cyberpunk)<br>2. Nostalgisch (Jaren 90)<br>3. Totaal Absurd<br><br>Beschrijf bij elk de openingsstunt."
+  },
+  {
+    "sectie": "OPDRACHT 3 - RESULTAAT",
+    "titel": "Het Resultaat",
+    "tekst": "Ideeën waar je zelf nooit op was gekomen (Lasers in een grot? Onderwater scooters?). AI is je sparringpartner voor inspiratie.",
+    "afbeelding": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop"
+  },
+  {
+    "type": "REVEAL",
+    "titel": "OPDRACHT 4",
+    "subtitel": "DE VISUELE VERTALER"
+  },
+  {
+    "sectie": "OPDRACHT 4 - SITUATIE",
+    "titel": "Briefing voor Beeld",
+    "tekst": "We hebben gekozen voor het 'Absurde' concept: Een oma op een race-scooter in een bibliotheek. We willen dit zelf genereren in Gemini (met Nano Banana/Imagen), maar hebben een sterke prompt nodig."
+  },
+  {
+    "sectie": "OPDRACHT 4 - DE OPDRACHT",
+    "titel": "Jouw Taak",
+    "tekst": "Laat AI de vertaalslag maken van jouw idee naar een technische briefing voor de beeld-generator.",
+    "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een image generator.\n\nScene: Oma op knalgele scooter schreeuwend in een bibliotheek.\n\nVereisten:\n- Beschrijf de belichting (Neon, Cinematic)\n- Beschrijf de camerahoek (Low angle, wide shot)\n- Stijl: Cyberpunk, Hyperrealistisch, 8k\n\nSchrijf alleen de prompt, geen inleiding."
+  },
+  {
+    "sectie": "OPDRACHT 4 - RESULTAAT",
+    "titel": "Het Resultaat",
+    "tekst": "Je krijgt een technisch perfecte beschrijving. Plak deze in Gemini en zie de magie.",
+    "afbeelding": "https://raw.githubusercontent.com/martenk123/ai_pres/main/oma.png"
   },
   {
     "type": "REVEAL",
@@ -55,43 +120,45 @@
     "subtitel": "HET KRITISCHE PANEL"
   },
   {
+    "sectie": "OPDRACHT 5 - SITUATIE",
+    "titel": "De Reality Check",
+    "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
+  },
+  {
     "sectie": "OPDRACHT 5 - DE OPDRACHT",
     "type": "PERSONA_GRID",
     "titel": "Het Panel",
-    "intro_tekst": "Sleep <code>personas.pdf</code> in Gemini en gebruik deze prompt:",
-    "prompt": "Laat Rob, Nova en Peter discussiëren over het plan: Een oma op een scooter in de bieb. Conclusie: Go or No Go?",
+    "intro_tekst": "<strong>Stap 1:</strong> Sleep het bestand <code>personas.pdf</code> in Gemini.<br><strong>Stap 2:</strong> Kopieer onderstaande prompt (inclusief context!) en plak deze in de chat.",
+    "prompt": "CONTEXT VAN DE CASE:\nWe lanceren 'GreenWheels Pro' (stemgestuurde scooters) met als stunt: Een oma die op een knalgele scooter door een stille bibliotheek scheurt.\n\nINSTRUCTIE:\nIk heb zojuist persona's geüpload. Gebruik deze profielen strikt.\n\nTAAK:\n1. Laat Rob, Nova en Peter discussiëren over dit specifieke plan.\n2. Laat ze reageren vanuit hun eigen expertise (Veiligheid vs Viraliteit vs Geld).\n3. Zorg dat de stijlen NIET mengen (Rob blijft formeel, Nova gebruikt slang).\n\nConclusie: Go or No Go?",
     "personas": [
       {
         "naam": "ROB",
-        "rol": "Safety Manager",
-        "quote": "Risico is geen optie.",
-        "eigenschappen": ["20 jaar ervaring", "Focus op veiligheid"]
+        "rol": "Safety Manager (54)",
+        "quote": "\"Risico is geen optie.\""
       },
       {
         "naam": "NOVA",
-        "rol": "TikTok Specialist",
-        "quote": "Is dit cringe?",
-        "eigenschappen": ["Trendwatcher", "Focus op viraliteit"]
+        "rol": "TikTok Specialist (19)",
+        "quote": "\"Is dit cringe of iconic?\""
       },
       {
         "naam": "PETER",
-        "rol": "CEO",
-        "quote": "Wat kost dat?",
-        "eigenschappen": ["Ondernemer", "Focus op ROI"]
+        "rol": "CEO GreenWheels (45)",
+        "quote": "\"Wat kost dat?\""
       }
     ]
   },
   {
     "sectie": "OPDRACHT 5 - RESULTAAT",
-    "titel": "De Discussie",
+    "titel": "Het Resultaat",
+    "tekst": "De AI analyseert de PDF en combineert dit met jouw 'Oma in de bieb' case. Hieronder het resultaat:",
     "type": "CHAT",
     "deelnemers": "Peter, Nova, Rob",
-    "tekst": "Hier zie je hoe de verschillende persona's botsen over het creatieve concept.",
-    "chat_inhoud": "<strong>Peter:</strong> Wat kost dit grapje?<br><strong>Nova:</strong> Dit is echt iconic, Peter! No cap.<br><strong>Rob:</strong> Ik zie 14 veiligheidsrisico's in deze bibliotheek-stunt."
+    "chat_inhoud": "<strong>Peter:</strong> 'Wat kost dat?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld, dit is main character energy. Dit gaat sowieso viraal op mijn FYP. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier bezwaar tegen maken. Een gemotoriseerd voertuig in een bibliotheek is een nachtmerrie voor de brandveiligheid.'"
   },
   {
     "type": "OUTRO",
     "titel": "KLAAR VOOR DE START?",
-    "tekst": "AI is geen tool. Het is je nieuwe team."
+    "tekst": "AI is geen tool.<br>Het is je nieuwe team."
   }
 ]
