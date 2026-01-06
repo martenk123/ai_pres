@@ -1,198 +1,166 @@
-[
-  {
-    "type": "INTRO",
-    "imgStart": "https://raw.githubusercontent.com/martenk123/ai_pres/main/Start.png",
-    "imgEnd": "https://raw.githubusercontent.com/martenk123/ai_pres/main/End.png",
-    "titel": "AI POWER-UP",
-    "subtitel": "LA PLUME MEDIA",
-    "tekst": "Van Chatbot naar Slimme Collega."
-  },
-  {
-    "type": "CASE",
-    "titel": "PROJECT GREENLAUNCH",
-    "tekst": "We duiken direct in een crisis-simulatie.<br><br>Klant: <strong>GreenWheels Pro</strong>.<br>Deadline: <strong>Morgenochtend</strong>.<br>Status: <strong>Totale Chaos</strong>."
-  },
-  
-  {
-    "type": "REVEAL",
-    "titel": "OPDRACHT 1",
-    "subtitel": "DE CONTEXT-SETTER"
-  },
-  {
-    "sectie": "OPDRACHT 1 - SITUATIE",
-    "type": "EMAIL", 
-    "titel": "De Ochtend begint...",
-    "tekst": "Je opent je laptop en ziet direct een paniekerig bericht van de klant in je inbox. Het is één grote brij van informatie, stress en taalfouten. Hoe ga je hier rust in brengen?",
-    "afzender": "Peter (GreenWheels Pro) <peter@gwp.nl>",
-    "onderwerp": "URGENT: LANCERING!!!",
-    "email_inhoud": "Hoi team,<br><br>Korte update: we moeten morgen live maar ik heb nog <strong>geen persbericht</strong> en de <strong>locatie is afgebrand</strong> dus we moeten iets anders??<br><br>Oh en budget is gehalveerd. Kunnen we ook een video doen?<br><br>Gr,<br>Peter"
-  },
-  {
-    "sectie": "OPDRACHT 1 - DE OPDRACHT",
-    "titel": "Jouw Taak",
-    "tekst": "Ga niet zelf stressen. We gebruiken AI als <strong>Executive Assistant</strong> om rust en structuur te creëren.",
-    "prompt": "Gedraag je als een ervaren Executive Assistant bij een mediabureau. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
-  },
-  {
-    "sectie": "OPDRACHT 1 - RESULTAAT",
-    "titel": "Het Resultaat",
-    "tekst": "In plaats van dat je zelf in de paniek schiet, heb je binnen 30 seconden een actielijst en een concept-antwoord. De klant voelt zich gehoord en jij hebt overzicht.",
-    "afbeelding": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop"
-  },
-  {
-    "type": "FUN",
-    "titel": "GLITCH IN THE MATRIX",
-    "tekst": "AI 'hallucineert'. Als hij het antwoord niet weet, verzint hij soms vol overtuiging een feit. Check dus altijd je output!"
-  },
+/* --- CYBERPUNK PALETTE (STYLE 1) --- */
+:root { 
+    --bg-deep: #050508; 
+    --neon-blue: #00f3ff;
+    --neon-purple: #bd00ff;
+    --neon-pink: #ff0055;
+    --neon-green: #00ff88;
+    --text-main: #ffffff; 
+    --glass-bg: rgba(20, 20, 30, 0.7);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.15);
+}
 
-  {
-    "type": "REVEAL",
-    "titel": "OPDRACHT 2",
-    "subtitel": "DE DIRECTIVE GEBRUIKER"
-  },
-  {
-    "sectie": "OPDRACHT 2 - SITUATIE",
-    "type": "DOC",
-    "titel": "De Huisstijl",
-    "tekst": "We moeten pers benaderen. Maar als je AI vraagt 'schrijf een persbericht', krijg je een saaie drol. Wij hebben een specifieke <strong>Directive</strong> die we moeten volgen.",
-    "bestandsnaam": "Tone_of_Voice.pdf",
-    "doc_inhoud": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><br><strong>DOEL:</strong> Persbericht lancering stemgestuurde scooters."
-  },
-  {
-    "sectie": "OPDRACHT 2 - DE OPDRACHT",
-    "titel": "Jouw Taak",
-    "tekst": "We dwingen AI in een strak keurslijf met de Directive. Zo krijg je tekst die direct bruikbaar is.",
-    "prompt": "Schrijf een persbericht voor de lancering. <br><br>Gebruik deze DIRECTIVE:<br>- Toon: Energiek, rebels, korte zinnen.<br>- Verboden woorden: 'Duurzaamheid', 'Innovatief'.<br>- Structuur: Begin met een grap, eindig met call-to-action.<br><br>Onderwerp: Lancering stemgestuurde scooters."
-  },
-  {
-    "sectie": "OPDRACHT 2 - RESULTAAT",
-    "titel": "Het Resultaat",
-    "tekst": "Een tekst met karakter die direct klinkt als het merk. Geen 'In de wereld van vandaag...' AI-clichés meer.",
-    "afbeelding": "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?q=80&w=2070&auto=format&fit=crop"
-  },
-  {
-    "type": "FUN",
-    "titel": "SYSTEM OVERLOAD",
-    "tekst": "Pro-tip: Vraag Gemini eens om een tekst te herschrijven 'als een boze piraat' of 'voor een 5-jarige'. Het dwingt je om tot de kern te komen."
-  },
+* { box-sizing: border-box; }
+body { 
+    margin: 0; background-color: var(--bg-deep); color: var(--text-main); 
+    font-family: 'Outfit', sans-serif; overflow: hidden; height: 100vh; width: 100vw; 
+    cursor: crosshair;
+}
 
-  {
-    "type": "REVEAL",
-    "titel": "OPDRACHT 3",
-    "subtitel": "DE CREATIEVE BRAINSTORMER"
-  },
-  {
-    "sectie": "OPDRACHT 3 - SITUATIE",
-    "titel": "Locatie Crisis",
-    "tekst": "De oorspronkelijke locatie is afgebrand (zie mail). We hebben NU een nieuw, wild idee nodig voor de lancering. De klant staat open voor alles, zolang het maar opvalt."
-  },
-  {
-    "sectie": "OPDRACHT 3 - DE OPDRACHT",
-    "titel": "Jouw Taak",
-    "tekst": "We vragen AI om een <strong>excentrieke kunstenaar</strong> te zijn. Zo doorbreek je je eigen vaste denkpatronen.",
-    "prompt": "Verplaats je in de rol van een excentrieke festival-organisator. Geld speelt geen rol, veiligheid is bijzaak.<br><br>Bedenk 3 concepten voor de lancering:<br>1. Futuristisch (Cyberpunk)<br>2. Nostalgisch (Jaren 90)<br>3. Totaal Absurd<br><br>Beschrijf bij elk de openingsstunt."
-  },
-  {
-    "sectie": "OPDRACHT 3 - RESULTAAT",
-    "titel": "Het Resultaat",
-    "tekst": "Ideeën waar je zelf nooit op was gekomen (Lasers in een grot? Onderwater scooters?). AI is je sparringpartner voor inspiratie.",
-    "afbeelding": "https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop"
-  },
-  {
-    "type": "FUN",
-    "titel": "HUMOR MODULE MISSING",
-    "tekst": "Wist je dat AI geen humor heeft? Hij 'berekent' grappen op basis van patronen. Daarom zijn AI-moppen vaak net niet grappig."
-  },
-  
-  {
-    "type": "REVEAL",
-    "titel": "OPDRACHT 4",
-    "subtitel": "DE VISUELE VERTALER"
-  },
-  {
-    "sectie": "OPDRACHT 4 - SITUATIE",
-    "titel": "Briefing voor Beeld",
-    "tekst": "We hebben gekozen voor het 'Absurde' concept: Een oma op een race-scooter in een bibliotheek. We willen dit zelf genereren in Gemini (met Nano Banana/Imagen), maar hebben een sterke prompt nodig."
-  },
-  {
-    "sectie": "OPDRACHT 4 - DE OPDRACHT",
-    "titel": "Jouw Taak",
-    "tekst": "Laat AI de vertaalslag maken van jouw idee naar een technische briefing voor de beeld-generator.",
-    "prompt": "Gedraag je als Art Director. Beschrijf dit shot voor een image generator.\n\nScene: Oma op knalgele scooter schreeuwend in een bibliotheek.\n\nVereisten:\n- Beschrijf de belichting (Neon, Cinematic)\n- Beschrijf de camerahoek (Low angle, wide shot)\n- Stijl: Cyberpunk, Hyperrealistisch, 8k\n\nSchrijf alleen de prompt, geen inleiding."
-  },
-  {
-    "sectie": "OPDRACHT 4 - RESULTAAT",
-    "titel": "Het Resultaat",
-    "tekst": "Je krijgt een technisch perfecte beschrijving. Plak deze in Gemini en zie de magie.",
-    "afbeelding": "https://raw.githubusercontent.com/martenk123/ai_pres/main/oma.png"
-  },
-  {
-    "type": "FUN",
-    "titel": "PIXELS TELL LIES",
-    "tekst": "Let op vingers en teksten in AI afbeeldingen. Dat zijn vaak de plekken waar je ziet dat het nep is."
-  },
-  
-  {
-    "type": "REVEAL",
-    "titel": "OPDRACHT 5",
-    "subtitel": "HET KRITISCHE PANEL"
-  },
-  {
-    "sectie": "OPDRACHT 5 - SITUATIE",
-    "titel": "De Reality Check",
-    "tekst": "Het plan (oma op scooter) ligt er. Maar voordat we het naar Peter sturen, willen we zeker weten dat het waterdicht is. We roepen een virtueel panel op om gaten te schieten in ons idee."
-  },
-  {
-    "sectie": "OPDRACHT 5 - DE OPDRACHT",
-    "type": "PERSONA_GRID",
-    "titel": "Het Panel",
-    "intro_tekst": "<strong>Stap 1:</strong> Sleep het bestand <code>personas.pdf</code> in Gemini.<br><strong>Stap 2:</strong> Kopieer onderstaande prompt (inclusief context!) en plak deze in de chat.",
-    "prompt": "CONTEXT VAN DE CASE:\nWe lanceren 'GreenWheels Pro' (stemgestuurde scooters) met als stunt: Een oma die op een knalgele scooter door een stille bibliotheek scheurt.\n\nINSTRUCTIE:\nIk heb zojuist persona's geüpload. Gebruik deze profielen strikt.\n\nTAAK:\n1. Laat Rob, Nova en Peter discussiëren over dit specifieke plan.\n2. Laat ze reageren vanuit hun eigen expertise (Veiligheid vs Viraliteit vs Geld).\n3. Zorg dat de stijlen NIET mengen (Rob blijft formeel, Nova gebruikt slang).\n\nConclusie: Go or No Go?",
-    "personas": [
-      {
-        "naam": "ROB",
-        "rol": "Safety Manager (54)",
-        "quote": "\"Risico is geen optie.\"",
-        "eigenschappen": [
-          "<strong>Achtergrond:</strong> 20 jaar verzekeringen. Ziet overal gevaar.",
-          "<strong>Focus:</strong> Brandveiligheid, Aansprakelijkheid.",
-          "<strong>Taal:</strong> Formeel, waarschuwend, jargon."
-        ]
-      },
-      {
-        "naam": "NOVA",
-        "rol": "TikTok Specialist (19)",
-        "quote": "\"Is dit cringe of iconic?\"",
-        "eigenschappen": [
-          "<strong>Achtergrond:</strong> Leeft op haar telefoon. Kent alle trends.",
-          "<strong>Focus:</strong> Viraliteit, Aesthetics, Cringe-factor.",
-          "<strong>Taal:</strong> Slang (no cap, slay), snel, direct."
-        ]
-      },
-      {
-        "naam": "PETER",
-        "rol": "CEO GreenWheels (45)",
-        "quote": "\"Wat kost dat?\"",
-        "eigenschappen": [
-          "<strong>Achtergrond:</strong> Ondernemer. Heeft haast. Wil resultaat.",
-          "<strong>Focus:</strong> Budget, Deadline, ROI.",
-          "<strong>Taal:</strong> Kortaf, zakelijk, gefocust op geld."
-        ]
-      }
-    ]
-  },
-  {
-    "sectie": "OPDRACHT 5 - RESULTAAT",
-    "titel": "Het Resultaat",
-    "tekst": "De AI analyseert de PDF en combineert dit met jouw 'Oma in de bieb' case. Hieronder het resultaat:",
-    "type": "CHAT",
-    "deelnemers": "Peter, Nova, Rob",
-    "chat_inhoud": "<strong>Peter:</strong> 'Mensen, tijd is geld. Ik zie hier een voorstel: Oma op een scooter in een bibliotheek. Eén vraag: Wat kost dat en wat levert het op?'<br><br><strong>Nova:</strong> 'Omg Peter, vergeet het geld even, dit is pure content gold. Een oma? Op een neon gele scooter? In een silent library? Dat geeft echt main character energy. Het contrast is iconic. Dit gaat sowieso viraal op mijn FYP. No cap.'<br><br><strong>Rob:</strong> 'Ik moet hier ten stelligste bezwaar tegen maken. Een gemotoriseerd voertuig in een afgesloten ruimte met papieren materialen? Dat is een nachtmerrie voor de brandveiligheid.'<br><br><strong>Nova:</strong> 'Rob, doe niet zo salty. Het is een vibe.'<br><br><strong>Rob:</strong> 'Het is geen vibe, mevrouw Nova, het is een aansprakelijkheidsrisico van de bovenste plank. Wat als die, eh, oudere dame de controle verliest?'<br><br><strong>Peter:</strong> 'Rob, bespaar me de details. Is de verzekering gedekt binnen het huidige budget? En Nova, hoeveel views garandeer je? Als we onder de 10k blijven en het levert sales op, kan die brandveiligheid me weinig schelen.'"
-  },
+#canvas-bg { position: fixed; inset: 0; z-index: -1; }
 
-  {
-    "type": "OUTRO",
-    "titel": "KLAAR VOOR DE START?",
-    "tekst": "AI is geen tool.<br>Het is je nieuwe team."
-  }
-]
+/* --- TYPOGRAPHY --- */
+h1 { 
+    font-size: clamp(2.5rem, 5vw, 5rem); 
+    font-weight: 800; margin-bottom: 1rem; line-height: 1.1; 
+    text-shadow: 0 0 30px rgba(0, 243, 255, 0.4); color: #fff;
+    overflow-wrap: break-word; word-wrap: break-word; hyphens: auto;
+}
+h2 { 
+    font-size: clamp(1.5rem, 3vw, 3rem); 
+    color: var(--neon-purple); margin-bottom: 1.5rem; 
+    text-shadow: 0 0 15px rgba(189, 0, 255, 0.6);
+}
+p { 
+    font-size: clamp(1.2rem, 1.5vw, 1.8rem); 
+    color: #f0f0f0; line-height: 1.6; margin-bottom: 1.5rem; max-width: 100%; 
+}
+
+/* --- COMPONENTS --- */
+.badge { display: inline-block; padding: 0.6rem 1.2rem; border: 1px solid var(--neon-blue); color: var(--neon-blue); font-family: 'JetBrains Mono'; margin-bottom: 1.5rem; text-transform: uppercase; border-radius: 4px; font-weight: bold; background: rgba(0, 243, 255, 0.1); box-shadow: 0 0 15px rgba(0, 243, 255, 0.2); font-size: 1rem; }
+
+.prompt-box { 
+    background: rgba(10, 10, 15, 0.95); 
+    border: 1px solid rgba(255,255,255,0.3); border-left: 6px solid var(--neon-pink); 
+    padding: 2rem; margin-top: 2rem; font-family: 'JetBrains Mono'; 
+    font-size: clamp(1rem, 1.3vw, 1.5rem); line-height: 1.6; color: #fff; 
+    white-space: pre-wrap; box-shadow: 0 10px 50px rgba(0,0,0,0.7);
+}
+
+/* Restart Button */
+.restart-btn {
+    margin-top: 2rem;
+    background: transparent;
+    border: 2px solid var(--neon-green);
+    color: var(--neon-green);
+    padding: 1rem 2rem;
+    font-family: 'JetBrains Mono';
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.2);
+}
+.restart-btn:hover {
+    background: var(--neon-green);
+    color: #000;
+    box-shadow: 0 0 30px var(--neon-green);
+}
+
+/* --- ARTIFACT WINDOWS --- */
+.artifact-window {
+    background: rgba(20, 20, 30, 0.9); border-radius: 12px; 
+    border: 1px solid rgba(255,255,255,0.2); overflow: hidden;
+    font-family: 'Segoe UI', sans-serif; backdrop-filter: blur(20px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.8); margin-top: 1.5rem;
+    width: 100%; transform: perspective(1000px) rotateY(-2deg); transition: transform 0.3s;
+}
+.artifact-window:hover { transform: perspective(1000px) rotateY(0deg); }
+
+.email-header, .doc-header, .chat-header { padding: 15px 25px; border-bottom: 1px solid rgba(255,255,255,0.1); display: flex; gap: 8px; align-items: center; }
+.email-header { background: rgba(255,255,255,0.08); }
+.doc-header { background: var(--neon-blue); color: #000; font-family: 'JetBrains Mono'; font-weight: bold; justify-content: space-between; }
+.chat-header { background: var(--neon-purple); color: #fff; font-weight: bold; }
+
+.dot { width: 12px; height: 12px; border-radius: 50%; } 
+.dot.red { background: #ff5f56; } .dot.yellow { background: #ffbd2e; } .dot.green { background: #27c93f; }
+
+.artifact-body { padding: 30px; color: #eee; line-height: 1.6; font-size: 1.2rem; }
+.doc-body { padding: 30px; background: #1a1a20; color: #ddd; font-family: 'Georgia', serif; font-size: 1.2rem; }
+.chat-body { padding: 25px; background: rgba(0,0,0,0.6); color: #fff; font-family: 'JetBrains Mono'; line-height: 1.6; font-size: 1.1rem; }
+
+/* --- PERSONA CARDS --- */
+.persona-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+    width: 100%; margin-top: 1rem;
+}
+.persona-card {
+    background: rgba(10, 10, 20, 0.9); border: 1px solid var(--neon-purple);
+    border-radius: 8px; padding: 20px; color: #fff;
+    box-shadow: 0 0 20px rgba(189, 0, 255, 0.1);
+}
+.p-header { border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 15px; margin-bottom: 15px; }
+.p-name { font-size: 1.4rem; font-weight: bold; color: var(--neon-blue); text-transform: uppercase; margin-bottom: 5px; }
+.p-role { font-family: 'JetBrains Mono'; font-size: 0.9rem; color: #bbb; text-transform: uppercase; letter-spacing: 1px; }
+.p-quote { font-style: italic; color: var(--neon-pink); margin-bottom: 15px; font-size: 1.1rem; border-left: 3px solid var(--neon-pink); padding-left: 10px; }
+
+.p-list { list-style: none; padding: 0; margin: 0; }
+.p-list li { font-size: 0.9rem; margin-bottom: 10px; line-height: 1.4; color: #ddd; }
+.p-list strong { color: var(--neon-green); text-transform: uppercase; font-size: 0.8rem; display: block; margin-bottom: 2px; }
+
+/* --- GLITCH --- */
+.glitch-wrapper { position: relative; display: inline-block; margin-bottom: 30px; }
+.glitch { position: relative; font-size: clamp(3rem, 8vw, 7rem); font-weight: 900; text-transform: uppercase; color: #fff; letter-spacing: 5px; }
+.glitch::before, .glitch::after { content: attr(data-text); position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; }
+.glitch::before { left: 3px; text-shadow: -2px 0 var(--neon-pink); clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%); animation: glitch-anim-1 2.5s infinite linear alternate-reverse; }
+.glitch::after { left: -3px; text-shadow: -2px 0 var(--neon-blue); clip-path: polygon(0 55%, 100% 55%, 100% 100%, 0 100%); animation: glitch-anim-2 3s infinite linear alternate-reverse; }
+@keyframes glitch-anim-1 { 0% { clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%); } 100% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); } }
+@keyframes glitch-anim-2 { 0% { clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%); } 100% { clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%); } }
+
+/* --- REVEAL --- */
+.slide.reveal-slide { background: #000; text-align: center; }
+.slide.reveal-slide h1 { font-size: clamp(4rem, 12vw, 10rem); color: transparent; -webkit-text-stroke: 2px var(--neon-blue); text-transform: uppercase; opacity: 0; transform: scale(0.9); transition: all 0.5s; }
+.slide.active.reveal-slide h1 { animation: cinematicReveal 4s cubic-bezier(0.1, 0.9, 0.2, 1) forwards; }
+.slide.active.reveal-slide h2 { opacity: 0; animation: simpleFade 1s ease 1s forwards; }
+@keyframes cinematicReveal { 0% { opacity: 0; transform: scale(3) rotateX(20deg); filter: blur(20px); } 15% { opacity: 1; transform: scale(1); filter: blur(0px); color: var(--neon-blue); } 85% { opacity: 1; transform: scale(1.05); } 100% { opacity: 0; transform: scale(1.2); filter: blur(10px); } }
+@keyframes simpleFade { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+/* --- LAYOUT & IMAGES --- */
+.slider-container { display: flex; height: 100vh; transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1); }
+.slide { width: 100vw; height: 100vh; flex-shrink: 0; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 40px; }
+
+.slide-content-wrapper { width: 100%; max-width: 1600px; margin: 0 auto; z-index: 2; position: relative; }
+.content-grid { display: grid; grid-template-columns: 1fr; gap: 4rem; align-items: center; }
+@media (min-width: 1200px) { .has-image .content-grid { grid-template-columns: 1.2fr 0.8fr; } }
+
+.slide.bg-cover::before { content: ''; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.7); z-index: 0; }
+.slide.bg-cover { background-size: cover; background-position: center; }
+.slide.bg-cover > * { position: relative; z-index: 1; }
+
+.slide-image { width: 100%; height: auto; max-height: 60vh; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.2); }
+
+/* Fun Slide BG */
+.slide.fun-slide { background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070'); background-size: cover; }
+.slide.fun-slide::before { content: ''; position: absolute; inset: 0; background: rgba(50, 0, 100, 0.85); mix-blend-mode: multiply; z-index: 0; }
+.slide.fun-slide > * { position: relative; z-index: 1; }
+
+/* --- HUD --- */
+.hud-layer { position: fixed; inset: 0; pointer-events: none; z-index: 999; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; }
+.hud-top-right { position: absolute; top: 30px; right: 30px; display: flex; align-items: center; gap: 10px; }
+.hud-bottom-right { font-family: 'JetBrains Mono'; color: var(--neon-blue); font-size: 1.5rem; text-shadow: 0 0 10px var(--neon-blue); position: absolute; bottom: 30px; right: 30px; }
+.system-spinner { width: 40px; height: 40px; border: 2px solid rgba(255,255,255,0.1); border-top: 2px solid var(--neon-blue); border-radius: 50%; animation: spin 2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* MENU */
+#selection-screen { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 2000; background: rgba(0,0,0,0.95); backdrop-filter: blur(20px); transition: opacity 0.5s ease; }
+.menu-card { background: var(--glass-bg); padding: 3rem; border: var(--glass-border); border-radius: 16px; text-align: center; width: 100%; max-width: 500px; box-shadow: 0 0 80px rgba(0, 243, 255, 0.15); }
+select { width: 100%; padding: 1rem; margin: 1.5rem 0; background: rgba(0,0,0,0.5); border: 1px solid var(--neon-blue); color: white; border-radius: 8px; cursor: pointer; }
+.start-btn { background: var(--neon-blue); color: #000; padding: 1rem 3rem; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; text-transform: uppercase; box-shadow: 0 0 20px var(--neon-blue); width: 100%; transition: 0.3s; }
+.start-btn:hover { background: #fff; box-shadow: 0 0 40px #fff; }
+#loader { display: none; margin-top: 20px; color: var(--neon-blue); font-family: 'JetBrains Mono'; }
+
+@media (max-width: 1024px) { 
+    .persona-grid { grid-template-columns: 1fr; } 
+    .prompt-box { font-size: 1rem; }
+}
