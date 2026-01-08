@@ -28,21 +28,21 @@
     "sectie": "OPDRACHT 1 - SITUATIE",
     "type": "EMAIL", 
     "titel": "De Bevestiging",
-    "tekst": "Peter stuurt vlak na het gesprek nog snel een warrige bevestigingsmail vanuit de auto.",
+    "tekst": "Peter stuurt vlak na het gesprek nog snel een warrige bevestigingsmail vanuit de auto. Hij voegt ook een bijlage toe.",
     "afzender": "Peter (GreenWheels Pro) <peter@gwp.nl>",
-    "onderwerp": "Fwd: URGENT: LANCERING!!!",
-    "email_inhoud": "Hoi team,<br><br>Zoals net besproken: we moeten morgen live maar ik heb nog <strong>geen persbericht</strong> en de <strong>locatie is afgebrand</strong> dus we moeten iets anders??<br><br>Oh en budget is gehalveerd. Kunnen we ook een video doen?<br><br>Gr,<br>Peter"
+    "onderwerp": "Fwd: URGENT: LANCERING!!! + Flyer",
+    "email_inhoud": "Hoi team,<br><br>Zoals net besproken: we moeten morgen live maar ik heb nog <strong>geen persbericht</strong> en de <strong>locatie is afgebrand</strong> dus we moeten iets anders??<br><br>Ik stuur de <strong>oude flyer (zie bijlage)</strong> mee. Daar staan de specs op, maar de tekst is veel te saai. Die moeten we dus NIET letterlijk overnemen, maar de feiten kloppen wel.<br><br>Oh en budget is gehalveerd. Kunnen we ook een video doen?<br><br>Gr,<br>Peter"
   },
   {
     "sectie": "OPDRACHT 1 - DE OPDRACHT",
     "titel": "Jouw Taak",
-    "tekst": "Ga niet zelf stressen. We gebruiken AI als <strong>Executive Assistant</strong> om rust en structuur te creëren.",
-    "prompt": "Gedraag je als een ervaren Executive Assistant bij een mediabureau. Je bent punctueel, rustig en oplossingsgericht.<br><br>Hier is een paniekmail van een klant: [PLAK MAIL]<br><br>Taken:<br>1. Haal de 3 kernacties eruit.<br>2. Noteer de harde constraints.<br>3. Schrijf een diplomatieke, geruststellende reactie."
+    "tekst": "Ga niet zelf stressen. We gebruiken AI als <strong>Executive Assistant</strong>. Om goede output te krijgen, moet de AI eerst snappen waar het over gaat.",
+    "prompt": "Stap 1: Sleep de afbeelding 'Flyer.jpg' in de chat.\nStap 2: Plak onderstaande prompt erbij:\n\n\"Gedraag je als een ervaren Executive Assistant. Je bent punctueel, rustig en oplossingsgericht.\n\nCONTEXT:\nHier is een paniekmail van de klant: [PLAK MAIL]\nIk heb ook de flyer geüpload. Gebruik de flyer voor de feitelijke specificaties van de scooter.\n\nTAKEN:\n1. Haal de 3 kernacties uit de mail.\n2. Noteer de harde constraints.\n3. Schrijf een diplomatieke, geruststellende reactie aan Peter.\""
   },
   {
     "sectie": "OPDRACHT 1 - RESULTAAT",
     "titel": "Het Resultaat",
-    "tekst": "In plaats van dat je zelf in de paniek schiet, heb je binnen 30 seconden een actielijst en een concept-antwoord. De klant voelt zich gehoord en jij hebt overzicht.",
+    "tekst": "De AI combineert nu de paniek (mail) met de feiten (flyer). In plaats van dat je zelf in de paniek schiet, heb je binnen 30 seconden een actielijst en een concept-antwoord.",
     "afbeelding": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=2072&auto=format&fit=crop"
   },
   {
@@ -195,7 +195,7 @@
     "sectie": "OPDRACHT 5 - DEEL 2",
     "titel": "Het Alternatief",
     "tekst": "Kritiek leveren is makkelijk. Nu dwingen we het panel om constructief samen te werken naar een oplossing waar ze het <strong>alle drie</strong> mee eens zijn.",
-    "prompt": "Jullie hebben het 'Oma-plan' zojuist bekritiseerd. Nu moeten jullie constructief zijn.\n\nDe Opdracht:\nBedenk als team 3 alternatieve concepten voor de lancering. Jullie moeten het hier alle drie mee eens zijn (dus: Veilig genoeg voor Rob, Hype genoeg voor Nova, Betaalbaar voor Peter).\n\nFormat per alternatief:\n1. Concept: Beschrijf de kern in maximaal 10 woorden.\n2. Locatie: Kies een bestaande, specifieke locatie in Nederland die past bij de 'Rebelse' stijl.\n3. Budget: Geef een indicatie (Low / Mid / High).\n\nBlijf in jullie rollen tijdens het brainstormen."
+    "prompt": "Jullie hebben het 'Oma-plan' zojuist bekritiseerd. Nu moeten jullie constructief zijn.\n\n**De Opdracht:**\nBedenk als team 3 alternatieve concepten voor de lancering. Jullie moeten het hier **alle drie** mee eens zijn (dus: Veilig genoeg voor Rob, Hype genoeg voor Nova, Betaalbaar voor Peter).\n\n**Format per alternatief:**\n1. **Concept:** Beschrijf de kern in maximaal 10 woorden.\n2. **Locatie:** Kies een bestaande, specifieke locatie in Nederland die past bij de 'Rebelse' stijl.\n3. **Budget:** Geef een indicatie (Low / Mid / High).\n\nBlijf in jullie rollen tijdens het brainstormen."
   },
   {
     "type": "OUTRO",
