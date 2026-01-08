@@ -61,13 +61,13 @@
     "titel": "De Huisstijl",
     "tekst": "We moeten pers benaderen. Maar als je AI vraagt 'schrijf een persbericht', krijg je een saaie drol. Wij hebben een specifieke <strong>Directive</strong> in een PDF die we moeten volgen.",
     "bestandsnaam": "Tone_of_Voice.pdf",
-    "doc_inhoud": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><br><strong>DOEL:</strong> Persbericht lancering stemgestuurde scooters."
+    "doc_inhoud": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'."
   },
   {
     "sectie": "OPDRACHT 2 - DE OPDRACHT",
     "titel": "Jouw Taak",
-    "tekst": "We gebruiken de tekst uit de PDF als 'Directive' in onze prompt. Zo dwingen we de AI in de juiste schrijfstijl.",
-    "prompt": "Schrijf een persbericht over de lancering van elektrische scooters.<br><br>Gebruik deze directive als input voor de stijl:<br><br><strong>[DIRECTIVE UIT PDF]</strong><br>MERK WAARDEN:<br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- VERBODEN WOORDEN: 'Duurzaamheid', 'Synergie', 'Innovatief'.<br>DOEL: Persbericht lancering stemgestuurde scooters.<br><strong>[EINDE DIRECTIVE]</strong><br><br>Onderwerp: Lancering spraakgestuurde scooters."
+    "tekst": "We dwingen AI in een strak keurslijf met de Directive. Zo krijg je tekst die direct bruikbaar is.",
+    "prompt": "Schrijf een persbericht over de lancering van elektrische scooters.<br><br>Gebruik deze directive als input voor de stijl:<br><br><strong>[DIRECTIVE UIT PDF]</strong><br>MERK WAARDEN:<br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- VERBODEN WOORDEN: 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><strong>[EINDE DIRECTIVE]</strong><br><br>Onderwerp: Lancering spraakgestuurde scooters."
   },
   {
     "sectie": "OPDRACHT 2 - RESULTAAT",
