@@ -17,7 +17,7 @@
   {
     "type": "CASE",
     "titel": "PROJECT GREENLAUNCH",
-    "tekst": "Je hebt net Peter gezien in volle paniek-modus. Welkom bij de realiteit van een mediabureau.<br><br><strong>Wat ging er gebeuren?</strong><br>GreenWheels Pro zou morgen hun nieuwe stemgestuurde scooters lanceren. Grote persbijeenkomst, influencers, de hele reutemeteut. Alles stond.<br><br><strong>Wat is de situatie NU?</strong><br>Klant: GreenWheels Pro<br>Deadline: Morgenochtend 9:00 uur (onveranderd)<br>Status: Locatie afgebrand, geen persbericht klaar, budget gehalveerd<br><br><strong>Wat gaan we doen?</strong><br>Het team van La Plume team gaat nu aan de slag. In de volgende 5 opdrachten los je deze crisis op met AI als je nieuwe collega. Van chaos naar concept in één nacht.<br><br>Geen theorie. Gewoon doen. Ready?"
+    "tekst": "Je hebt net Peter gezien in volle paniek-modus. Welkom bij de realiteit van een mediabureau.<br><br><strong>Wat ging er gebeuren?</strong><br>GreenWheels Pro zou morgen hun nieuwe stemgestuurde scooters lanceren. Grote persbijeenkomst, influencers, de hele reutemeteut. Alles stond.<br><br><strong>Wat is de situatie NU?</strong><br>Klant: GreenWheels Pro<br>Deadline: Morgenochtend 9:00 uur (onveranderd)<br>Status: Locatie afgebrand, geen persbericht klaar, budget gehalveerd<br><br><strong>Wat gaan we doen?</strong><br>Jij bent nu onderdeel van het La Plume team. In de volgende 5 opdrachten los je deze crisis op met AI als je nieuwe collega. Van chaos naar concept in één nacht.<br><br>Geen theorie. Gewoon doen. Ready?"
   },
   {
     "type": "REVEAL",
@@ -59,15 +59,15 @@
     "sectie": "OPDRACHT 2 - SITUATIE",
     "type": "DOC",
     "titel": "De Huisstijl",
-    "tekst": "We moeten pers benaderen. Maar als je AI vraagt 'schrijf een persbericht', krijg je een saaie drol. Wij hebben een specifieke <strong>Directive</strong> die we moeten volgen.",
+    "tekst": "We moeten pers benaderen. Maar als je AI vraagt 'schrijf een persbericht', krijg je een saaie drol. Wij hebben een specifieke <strong>Directive</strong> in een PDF die we moeten volgen.",
     "bestandsnaam": "Tone_of_Voice.pdf",
     "doc_inhoud": "<strong>MERK WAARDEN:</strong><br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- <strong>VERBODEN WOORDEN:</strong> 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><br><strong>DOEL:</strong> Persbericht lancering stemgestuurde scooters."
   },
   {
     "sectie": "OPDRACHT 2 - DE OPDRACHT",
     "titel": "Jouw Taak",
-    "tekst": "We dwingen AI in een strak keurslijf met de Directive. Zo krijg je tekst die direct bruikbaar is.",
-    "prompt": "Schrijf een persbericht voor de lancering. <br><br>Gebruik deze DIRECTIVE:<br>- Toon: Energiek, rebels, korte zinnen.<br>- Verboden woorden: 'Duurzaamheid', 'Innovatief'.<br>- Structuur: Begin met een grap, eindig met call-to-action.<br><br>Onderwerp: Lancering stemgestuurde scooters."
+    "tekst": "We gebruiken de tekst uit de PDF als 'Directive' in onze prompt. Zo dwingen we de AI in de juiste schrijfstijl.",
+    "prompt": "Schrijf een persbericht over de lancering van elektrische scooters.<br><br>Gebruik deze directive als input voor de stijl:<br><br><strong>[DIRECTIVE UIT PDF]</strong><br>MERK WAARDEN:<br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- VERBODEN WOORDEN: 'Duurzaamheid', 'Synergie', 'Innovatief'.<br>DOEL: Persbericht lancering stemgestuurde scooters.<br><strong>[EINDE DIRECTIVE]</strong><br><br>Onderwerp: Lancering spraakgestuurde scooters."
   },
   {
     "sectie": "OPDRACHT 2 - RESULTAAT",
