@@ -195,7 +195,7 @@
     "sectie": "OPDRACHT 5 - DEEL 2",
     "titel": "Het Alternatief",
     "tekst": "Kritiek leveren is makkelijk. Nu dwingen we het panel om constructief samen te werken naar een oplossing waar ze het <strong>alle drie</strong> mee eens zijn.",
-    "prompt": "Jullie hebben het 'Oma-plan' zojuist bekritiseerd. Nu moeten jullie constructief zijn.\n\n**De Opdracht:**\nBedenk als team 3 alternatieve concepten voor de lancering. Jullie moeten het hier **alle drie** mee eens zijn (dus: Veilig genoeg voor Rob, Hype genoeg voor Nova, Betaalbaar voor Peter).\n\n**Format per alternatief:**\n1. **Concept:** Beschrijf de kern in maximaal 10 woorden.\n2. **Locatie:** Kies een bestaande, specifieke locatie in Nederland die past bij de 'Rebelse' stijl.\n3. **Budget:** Geef een indicatie (Low / Mid / High).\n\nBlijf in jullie rollen tijdens het brainstormen."
+    "prompt": "Jullie hebben het 'Oma-plan' zojuist bekritiseerd. Nu moeten jullie constructief zijn.\n\nDe Opdracht:\nBedenk als team 3 alternatieve concepten voor de lancering. Jullie moeten het hier alle drie mee eens zijn (dus: Veilig genoeg voor Rob, Hype genoeg voor Nova, Betaalbaar voor Peter).\n\nFormat per alternatief:\n1. Concept: Beschrijf de kern in maximaal 10 woorden.\n2. Locatie: Kies een bestaande, specifieke locatie in Nederland die past bij de 'Rebelse' stijl.\n3. Budget: Geef een indicatie (Low / Mid / High).\n\nBlijf in jullie rollen tijdens het brainstormen."
   },
   {
     "type": "OUTRO",
