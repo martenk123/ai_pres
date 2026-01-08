@@ -67,7 +67,7 @@
     "sectie": "OPDRACHT 2 - DE OPDRACHT",
     "titel": "Jouw Taak",
     "tekst": "We dwingen AI in een strak keurslijf met de Directive. Zo krijg je tekst die direct bruikbaar is.",
-    "prompt": "Schrijf een persbericht over de lancering van elektrische scooters.<br><br>Gebruik deze directive als input voor de stijl:<br><br><strong>[DIRECTIVE]</strong><br>MERK WAARDEN:<br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- VERBODEN WOORDEN: 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><strong>[EINDE DIRECTIVE]</strong><br><br>Onderwerp: Lancering spraakgestuurde scooters."
+    "prompt": "Schrijf een persbericht over de lancering van elektrische scooters.<br><br>Gebruik deze directive als input voor de stijl:<br><br><strong>[DIRECTIVE UIT PDF]</strong><br>MERK WAARDEN:<br>- Rebels & Energiek (Denk: Tony's Chocolonely)<br>- Korte zinnen. Geen jargon.<br>- VERBODEN WOORDEN: 'Duurzaamheid', 'Synergie', 'Innovatief'.<br><strong>[EINDE DIRECTIVE]</strong><br><br>Onderwerp: Lancering spraakgestuurde scooters."
   },
   {
     "sectie": "OPDRACHT 2 - RESULTAAT",
@@ -87,7 +87,7 @@
   },
   {
     "sectie": "OPDRACHT 3 - SITUATIE",
-    "titel": "Locatie Crisis",
+    "titel": "Locatiecrisis",
     "tekst": "De oorspronkelijke locatie is afgebrand (zie mail). We hebben NU een nieuw, wild idee nodig voor de lancering. De klant staat open voor alles, zolang het maar opvalt."
   },
   {
@@ -114,7 +114,7 @@
   },
   {
     "sectie": "OPDRACHT 4 - SITUATIE",
-    "titel": "Briefing voor Beeld",
+    "titel": "Briefing voor het Beeld",
     "tekst": "We hebben gekozen voor het 'Absurde' concept: Een oma op een race-scooter in een bibliotheek. We willen dit zelf genereren in Gemini (met Nano Banana/Imagen), maar hebben een sterke prompt nodig."
   },
   {
